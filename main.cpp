@@ -63,8 +63,17 @@ const float CAMERA_SPACING = 50.f;
 
 //Variables globales
 CModelViewerCamera g_Camera; //La camera
+CDXUTDialogResourceManager g_DialogResourceManager;	//Manager pour les resources partargés des différents dialogs
 CDXUTDialog g_SampleUI;		//Dialogue pour les controles spécifiques (controles au sens par exemple des touches cheloux)
+CDXUTDialog g_HUD;	//Dialog pour les controles standards
 CD3DSettingsDlg g_SettingsDlg; //Parametre du device principale
+CDXUTTextHelper* g_pTxtHelper = nullptr;
+
+ID3D11InputLayout* g_pBatchInputLayout = nullptr;
+
+std::unique_ptr<CommonStates>	g_States;
+std::unique_ptr<BasicEffect>	g_BatchEffect;
+std::unique_ptr<PrimitiveBatch<VertexPositionColor>> g_Batch;
 
 XMVECTOR g_CameraOrigins[CAMERA_COUNT]; //Liste des emplacements de la caméra
 
@@ -95,7 +104,15 @@ CollisionTriangle   g_SecondaryTriangles[GROUP_COUNT];
 LRESULT CALLBACK MsgProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam, bool* pbNoFurtherProcessing, void* pUserConext);
 void CALLBACK OnKeyboard(UINT nChar, bool bKeyDown, bool bAltDown, void* pUserContext);
 void CALLBACK OnGUIEvent(UINT nEvent, int nControlID, CDXUTControl* pControl, void* pUserContext);
+void CALLBACK OnFrameMove(double fTime, float fEnlapsedTime, void* pUserContext);
+bool CALLBACK ModifyDeviceSettings(DXUTD3D11DeviceSettings* pDeviceSettings, void* pUserContext);
+bool CALLBACK IsD3D11DeviceAcceptable(const CD3D11EnumAdapterInfo *AdapterInfo, UINT Output, const CD3D11EnumDeviceInfo *DeviceInfo, DXGI_FORMAT BackBufferFormat, bool bWindowed, void* pUserContext);
+HRESULT CALLBACK OnD3D11CreateDevice(ID3D11Device* pd3dDevice, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext);
 
+void Animate(double fTime);
+void Collide();
+
+void SetViewForGroup(int group);
 
 
 /*
@@ -124,6 +141,56 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	DXUTSetCallbackKeyboard(OnKeyboard);
 
 
+}
+
+/*
+	
+*/
+bool CALLBACK ModifyDeviceSettings(DXUTD3D11DeviceSettings* pDeviceSettings, void* pUserContext) {
+	return true;
+}
+
+//Elle est acceptable pose pas de question
+bool CALLBACK IsD3D11DeviceAcceptable(const CD3D11EnumAdapterInfo *AdapterInfo, UINT Output, const CD3D11EnumDeviceInfo *DeviceInfo, DXGI_FORMAT BackBufferFormat, bool bWindowed, void* pUserContext) {
+	return true;
+}
+
+/*
+	Cette fonction est appelée quand directX est créé
+*/
+HRESULT CALLBACK OnD3D11CreateDevice(ID3D11Device* pd3dDevice, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext) {
+	HRESULT hr;
+
+	auto pd3dImmediateContext = DXUTGetD3D11DeviceContext();
+	V_RETURN(g_DialogResourceManager.OnD3D11CreateDevice(pd3dDevice, pd3dImmediateContext));
+	V_RETURN(g_SettingsDlg.OnD3D11CreateDevice(pd3dDevice));
+	g_pTxtHelper = new CDXUTTextHelper(pd3dDevice, pd3dImmediateContext, &g_DialogResourceManager, 15);
+
+	//Creation d'un autre render
+	g_States.reset(new CommonStates(pd3dDevice));
+	g_Batch.reset(new PrimitiveBatch<VertexPositionColor>(pd3dImmediateContext));
+
+	g_BatchEffect.reset(new BasicEffect(pd3dDevice));
+	g_BatchEffect->SetVertexColorEnabled(true);
+
+	{
+		void const* shaderByteCode;
+		size_t byteCodeLength;
+
+		g_BatchEffect->GetVertexShaderBytecode(&shaderByteCode, &byteCodeLength);
+		hr = pd3dDevice->CreateInputLayout(VertexPositionColor::InputElements, VertexPositionColor::InputElementCount, shaderByteCode, byteCodeLength, &g_pBatchInputLayout);
+
+		if (FAILED(hr))
+			return hr;
+	}
+
+	//Setup des paramètres de la camera
+
+	auto pComboBox = g_SampleUI.GetComboBox(IDC_GROUP);
+	SetViewForGroup((pComboBox) ? (int)PtrToInt(pComboBox->GetSelectedData()) : 0);
+	g_HUD.GetButton(IDC_TOGGLEWARP)->SetEnabled(true);
+
+	return S_OK;
 }
 
 /*
@@ -395,5 +462,12 @@ void CALLBACK OnGUIEvent(UINT nEvent, int nControlID, CDXUTControl* pControl, vo
 	fEnlapsedTime : Temps depuis la dernière update
 */
 void CALLBACK OnFrameMove(double fTime, float fEnlapsedTime, void* pUserContext) {
+	//Mise à jour des positions des objets
+	Animate(fTime);
 
+	//Mise à jour des collisions
+	Collide();
+
+	//Mise à jour de la camera
+	g_Camera.FrameMove(fEnlapsedTime);
 }
