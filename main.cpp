@@ -69,10 +69,10 @@ CD3DSettingsDlg g_SettingsDlg; //Parametre du device principale
 XMVECTOR g_CameraOrigins[CAMERA_COUNT]; //Liste des emplacements de la caméra
 
 //Objets primaires (les gros quoi)
-BoundingFrustum g_PrimaryFustrum;	//Frustrum : Cone (à base circulaire ou carée) sans pointe du coup le sommet est plat. Vu de coté : Trapèze
-BoundingOrientedBox g_PrimaryOrientedBox;
-BoundingBox g_PrimaryAABox;
-CollisionRay g_PrimaryRay;
+BoundingFrustum				g_PrimaryFustrum;	//Frustrum : Cone (à base circulaire ou carée) sans pointe du coup le sommet est plat. Vu de coté : Trapèze
+BoundingOrientedBox			g_PrimaryOrientedBox;
+BoundingBox					g_PrimaryAABox;
+CollisionRay				g_PrimaryRay;
 
 //Objets secondaires (les petits)
 CollisionSphere     g_SecondarySpheres[GROUP_COUNT];
@@ -130,13 +130,94 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 
 void Animate(double fTime) {
 	float t = (FLOAT)(fTime*0.2);
+
 	const float camera0OriginX = XMVectorGetX(g_CameraOrigins[0]);
 	const float camera1OriginX = XMVectorGetX(g_CameraOrigins[1]);
 	const float camera2OriginX = XMVectorGetX(g_CameraOrigins[2]);
 	const float camera3OriginX = XMVectorGetX(g_CameraOrigins[3]);
 	const float camera3OriginZ = XMVectorGetZ(g_CameraOrigins[3]);
 
+	//Animation de la sphere 0 autour du frustum
+	g_SecondarySpheres[0].sphere.Center.x = 10 * sinf(3 * t);
+	g_SecondarySpheres[0].sphere.Center.y = 7 * cosf(5 * t);
 
+	//Animation de la oriented box 0 autour du frustum
+	g_SecondaryOrientedBoxes[0].obox.Center.x = 8 * sinf(3.5f * t);
+	g_SecondaryOrientedBoxes[0].obox.Center.y = 5 * cosf(5.1f * t);
+	XMStoreFloat4(&(g_SecondaryOrientedBoxes[0].obox.Orientation), XMQuaternionRotationRollPitchYaw(t * 1.4f,
+																									t * 0.2f,
+																									t));
+
+	//Animation de la box (Axis-Aligned) autour de l'oriented box
+	g_SecondaryAABoxes[2].aabox.Center.x = 8 * sinf(1.3f * t) + camera2OriginX;
+	g_SecondaryAABoxes[2].aabox.Center.y = 8 * cosf(5.2f * t);
+	g_SecondaryAABoxes[2].aabox.Center.z = 8 * cosf(3.5f * t);
+
+	//Triangles équilateraux
+	const XMVECTOR TrianglePointA = { 0, 2, 0, 0 };
+	const XMVECTOR TrianglePointB = { 1.732f, -1, 0, 0 };
+	const XMVECTOR TrianglePointC = { -1.732f, -1, 0, 0 };
+
+	//Animation du triangle 0 autour du frustum
+	XMMATRIX TriangleCoords = XMMatrixRotationRollPitchYaw(t * 1.4f, t * 2.5f, t);
+	XMMATRIX Translation = XMMatrixTranslation(5 * sinf(5.3f * t) + camera0OriginX,
+											   5 * cosf(2.3f * t),
+											   5 * sinf(3.4f * t));
+	TriangleCoords = XMMatrixMultiply(TriangleCoords, Translation);
+	g_SecondaryTriangles[0].pointa = XMVector3Transform(TrianglePointA, TriangleCoords);
+	g_SecondaryTriangles[0].pointb = XMVector3Transform(TrianglePointB, TriangleCoords);
+	g_SecondaryTriangles[0].pointc = XMVector3Transform(TrianglePointC, TriangleCoords);
+
+	//Animation du triangle 1 autour de l'oriented box
+	TriangleCoords = XMMatrixRotationRollPitchYaw(t * 1.4f, t * 2.5f, t);
+	Translation = XMMatrixTranslation(8 * sinf(5.3f * t) + camera1OriginX,
+									  8 * cosf(2.3f * t),
+									  8 * sinf(3.4f * t));
+	TriangleCoords = XMMatrixMultiply(TriangleCoords, Translation);
+	g_SecondaryTriangles[1].pointa = XMVector3Transform(TrianglePointA, TriangleCoords);
+	g_SecondaryTriangles[1].pointb = XMVector3Transform(TrianglePointB, TriangleCoords);
+	g_SecondaryTriangles[1].pointc = XMVector3Transform(TrianglePointC, TriangleCoords);
+
+	// Animation du triangle 2 autour de l'oriented box
+	TriangleCoords = XMMatrixRotationRollPitchYaw(t * 1.4f, t * 2.5f, t);
+	Translation = XMMatrixTranslation(8 * sinf(5.3f * t) + camera2OriginX,
+									  8 * cosf(2.3f * t),
+									  8 * sinf(3.4f * t));
+	TriangleCoords = XMMatrixMultiply(TriangleCoords, Translation);
+	g_SecondaryTriangles[2].pointa = XMVector3Transform(TrianglePointA, TriangleCoords);
+	g_SecondaryTriangles[2].pointb = XMVector3Transform(TrianglePointB, TriangleCoords);
+	g_SecondaryTriangles[2].pointc = XMVector3Transform(TrianglePointC, TriangleCoords);
+
+	//Animation du ray (Seule objet primaire animé)
+	g_PrimaryRay.direction = XMVectorSet(sinf(t * 3), 0, cosf(t * 3), 0);
+
+	//Animation de la sphere 3 autour du ray
+	g_SecondarySpheres[3].sphere.Center = XMFLOAT3(camera3OriginX - 3,
+												   0.5f * sinf(t * 5),
+												   camera3OriginZ);
+
+	//Animation de la box 3 autour du ray
+	g_SecondaryAABoxes[3].aabox.Center = XMFLOAT3(camera3OriginX + 3,
+												  0.5f * sinf(t * 4),
+												  camera3OriginZ);
+
+	//Animation de l'oriented box 3 autour du ray
+	g_SecondaryOrientedBoxes[3].obox.Center = XMFLOAT3(camera3OriginX,
+													   0.5f * sinf(t * 4.5f),
+													   camera3OriginZ + 3);
+	XMStoreFloat4(&(g_SecondaryOrientedBoxes[3].obox.Orientation), XMQuaternionRotationRollPitchYaw(t * 0.9f,
+																									t * 1.8f,
+																									t));
+
+	//Animation du triangle 3 autour du ray
+	TriangleCoords = XMMatrixRotationRollPitchYaw(t * 1.4f, t * 2.5f, t);
+	Translation = XMMatrixTranslation(camera3OriginX,
+									  0.5f * cosf(4.3f * t),
+									  camera3OriginZ - 3);
+	TriangleCoords = XMMatrixMultiply(TriangleCoords, Translation);
+	g_SecondaryTriangles[3].pointa = XMVector3Transform(TrianglePointA, TriangleCoords);
+	g_SecondaryTriangles[3].pointb = XMVector3Transform(TrianglePointB, TriangleCoords);
+	g_SecondaryTriangles[3].pointc = XMVector3Transform(TrianglePointC, TriangleCoords);
 }
 
 /*
