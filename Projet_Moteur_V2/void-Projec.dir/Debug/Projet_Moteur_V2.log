@@ -1,2 +1,3 @@
 ﻿  main.cpp
+e:\c++\voidproject\main.cpp(42): warning C4715: 'wWinMain' : les chemins de contrôle ne retournent pas tous une valeur
   Projet_Moteur_V2.vcxproj -> E:\C++\voidProject\Debug\void-Projec.exe
