@@ -74,6 +74,9 @@ BoundingOrientedBox			g_PrimaryOrientedBox;
 BoundingBox					g_PrimaryAABox;
 CollisionRay				g_PrimaryRay;
 
+//Box à l'endroit où le ray coupe un objet
+CollisionAABox g_RayHitResultBox;
+
 //Objets secondaires (les petits)
 CollisionSphere     g_SecondarySpheres[GROUP_COUNT];
 CollisionBox        g_SecondaryOrientedBoxes[GROUP_COUNT];
@@ -224,12 +227,84 @@ void Animate(double fTime) {
 	Cette fonction met à jour toutes les collisions pour les tester
 */
 void Collide() {
+
+	//Test les collisions entre les objets et le frustum
 	g_SecondarySpheres[0].collision			= g_PrimaryFustrum.Contains(g_SecondarySpheres[0].sphere);
 	g_SecondaryOrientedBoxes[0].collision	= g_PrimaryFustrum.Contains(g_SecondaryOrientedBoxes[0].obox);
 	g_SecondaryAABoxes[0].collision			= g_PrimaryFustrum.Contains(g_SecondaryAABoxes[0].aabox);
 	g_SecondaryTriangles[0].collision		= g_PrimaryFustrum.Contains(g_SecondaryTriangles[0].pointa,
 																  g_SecondaryTriangles[0].pointb,
 																  g_SecondaryTriangles[0].pointc);
+
+	//Test les collisions entre les objets et l'anligned box
+	g_SecondarySpheres[1].collision			= g_PrimaryAABox.Contains(g_SecondarySpheres[1].sphere);
+	g_SecondaryOrientedBoxes[1].collision	= g_PrimaryAABox.Contains(g_SecondaryOrientedBoxes[1].obox);
+	g_SecondaryAABoxes[1].collision			= g_PrimaryAABox.Contains(g_SecondaryAABoxes[1].aabox);
+	g_SecondaryTriangles[1].collision		= g_PrimaryAABox.Contains(g_SecondaryTriangles[1].pointa,
+																g_SecondaryTriangles[1].pointb,
+																g_SecondaryTriangles[1].pointc);
+
+	//Test les collisions entre le objets et la box
+	g_SecondarySpheres[2].collision			= g_PrimaryOrientedBox.Contains(g_SecondarySpheres[2].sphere);
+	g_SecondaryOrientedBoxes[2].collision	= g_PrimaryOrientedBox.Contains(g_SecondaryOrientedBoxes[2].obox);
+	g_SecondaryAABoxes[2].collision			= g_PrimaryOrientedBox.Contains(g_SecondaryAABoxes[2].aabox);
+	g_SecondaryTriangles[2].collision		= g_PrimaryOrientedBox.Contains(g_SecondaryTriangles[2].pointa,
+																	  g_SecondaryTriangles[2].pointb,
+																	  g_SecondaryTriangles[2].pointc);
+
+	//Test les collisions entre les objets et la ray
+	float fDistance = -1.0f;
+
+	float fDist;
+	if (g_SecondarySpheres[3].sphere.Intersects(g_PrimaryRay.origin, g_PrimaryRay.direction, fDist))
+	{
+		fDistance = fDist;
+		g_SecondarySpheres[3].collision = INTERSECTS;
+	}
+	else
+		g_SecondarySpheres[3].collision = DISJOINT;
+
+	if (g_SecondaryOrientedBoxes[3].obox.Intersects(g_PrimaryRay.origin, g_PrimaryRay.direction, fDist))
+	{
+		fDistance = fDist;
+		g_SecondaryOrientedBoxes[3].collision = INTERSECTS;
+	}
+	else
+		g_SecondaryOrientedBoxes[3].collision = DISJOINT;
+
+	if (g_SecondaryAABoxes[3].aabox.Intersects(g_PrimaryRay.origin, g_PrimaryRay.direction, fDist))
+	{
+		fDistance = fDist;
+		g_SecondaryAABoxes[3].collision = INTERSECTS;
+	}
+	else
+		g_SecondaryAABoxes[3].collision = DISJOINT;
+
+	if (TriangleTests::Intersects(g_PrimaryRay.origin, g_PrimaryRay.direction,
+								  g_SecondaryTriangles[3].pointa,
+								  g_SecondaryTriangles[3].pointb,
+								  g_SecondaryTriangles[3].pointc,
+								  fDist))
+	{
+		fDistance = fDist;
+		g_SecondaryTriangles[3].collision = INTERSECTS;
+	}
+	else
+		g_SecondaryTriangles[3].collision = DISJOINT;
+
+	//Si un des test des intersections du ray est bon, fDistance sera positive
+	if (fDistance > 0)
+	{
+		// Le primary ray est supposé normalisé
+		XMVECTOR HitLocation = XMVectorMultiplyAdd(g_PrimaryRay.direction, XMVectorReplicate(fDistance),
+												   g_PrimaryRay.origin);
+		XMStoreFloat3(&g_RayHitResultBox.aabox.Center, HitLocation);
+		g_RayHitResultBox.collision = INTERSECTS;
+	}
+	else
+	{
+		g_RayHitResultBox.collision = DISJOINT;
+	}
 }
 
 /*
@@ -239,7 +314,7 @@ void Collide() {
 	wParam & lParam : Précisions sur l'origine du message
 
 	LRESULT : La valeur retournée dépend (son type aussi) du message à process
-	CALLBACK : Précise que la fonction doit être appelée de la manière la plus standard possible (__stdcall ici -> de droite à gauche et de haut en bas
+	CALLBACK : Précise que la fonction doit être appelée de la manière la plus standard possible (__stdcall ici -> de droite à gauche et de haut en bas)
 */
 LRESULT CALLBACK MsgProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam, bool* pbNoFurtherProcessing, void* pUserContext) {
 
