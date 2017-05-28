@@ -9,8 +9,26 @@
     <Filter Include="Source Files">
       <UniqueIdentifier>{E94337B6-AD84-34E2-AD24-304E71A93054}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Resource Files">
+      <UniqueIdentifier>{409a776a-837f-4bb9-9776-fed7bdaba730}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Source Files\Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Collision.rc">
+      <Filter>Source Files\Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\DXUT\Optional\directx.ico">
+      <Filter>Source Files\Resource Files</Filter>
+    </Image>
   </ItemGroup>
 </Project>
