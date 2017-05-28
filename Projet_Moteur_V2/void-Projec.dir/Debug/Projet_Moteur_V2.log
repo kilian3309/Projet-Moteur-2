@@ -1,3 +1,11 @@
-﻿  main.cpp
-e:\c++\voidproject\main.cpp(42): warning C4715: 'wWinMain' : les chemins de contrôle ne retournent pas tous une valeur
+﻿LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/FORCE'
+main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackMsgProc(long (__stdcall*)(struct HWND__ *,unsigned int,unsigned int,long,bool *,void *),void *)" (?DXUTSetCallbackMsgProc@@YGXP6GJPAUHWND__@@IIJPA_NPAX@Z2@Z) référencé dans la fonction _wWinMain@16
+main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialog::CDXUTDialog(void)" (??0CDXUTDialog@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_SampleUI''(void)" (??__Eg_SampleUI@@YAXXZ)
+main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialog::~CDXUTDialog(void)" (??1CDXUTDialog@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic atexit destructor for 'g_SampleUI''(void)" (??__Fg_SampleUI@@YAXXZ)
+main.obj : error LNK2019: symbole externe non résolu "public: class CDXUTControl * __thiscall CDXUTDialog::GetControl(int,unsigned int)const " (?GetControl@CDXUTDialog@@QBEPAVCDXUTControl@@HI@Z) référencé dans la fonction "public: class CDXUTComboBox * __thiscall CDXUTDialog::GetComboBox(int)const " (?GetComboBox@CDXUTDialog@@QBEPAVCDXUTComboBox@@H@Z)
+main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTComboBox::SetSelectedByData(void *)" (?SetSelectedByData@CDXUTComboBox@@QAEJPAX@Z) référencé dans la fonction "void __stdcall OnKeyboard(unsigned int,bool,bool,void *)" (?OnKeyboard@@YGXI_N0PAX@Z)
+main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CModelViewerCamera::CModelViewerCamera(void)" (??0CModelViewerCamera@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_Camera''(void)" (??__Eg_Camera@@YAXXZ)
+main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CModelViewerCamera::Reset(void)" (?Reset@CModelViewerCamera@@UAEXXZ) référencé dans la fonction "void __cdecl SetViewForGroup(int)" (?SetViewForGroup@@YAXH@Z)
+main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CModelViewerCamera::SetViewParams(union __m128,union __m128)" (?SetViewParams@CModelViewerCamera@@UAEXT__m128@@0@Z) référencé dans la fonction "void __cdecl SetViewForGroup(int)" (?SetViewForGroup@@YAXH@Z)
+E:\C++\voidProject\Debug\void-Projec.exe : warning LNK4088: image en cours de génération à cause de l'option /FORCE ; l'image risque de ne pas s'exécuter
   Projet_Moteur_V2.vcxproj -> E:\C++\voidProject\Debug\void-Projec.exe

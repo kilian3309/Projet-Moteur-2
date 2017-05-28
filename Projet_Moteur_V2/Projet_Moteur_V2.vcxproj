@@ -129,6 +129,7 @@
       <SubSystem>Windows</SubSystem>
       <Version>
       </Version>
+      <ForceFileOutput>Enabled</ForceFileOutput>
     </Link>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
