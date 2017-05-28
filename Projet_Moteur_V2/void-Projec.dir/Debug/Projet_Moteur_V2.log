@@ -1,5 +1,5 @@
 ﻿  main.cpp
-e:\c++\voidproject\main.cpp(112): warning C4715: 'wWinMain' : les chemins de contrôle ne retournent pas tous une valeur
+e:\c++\voidproject\main.cpp(124): warning C4715: 'wWinMain' : les chemins de contrôle ne retournent pas tous une valeur
 LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/FORCE'
 main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackKeyboard(void (__stdcall*)(unsigned int,bool,bool,void *),void *)" (?DXUTSetCallbackKeyboard@@YGXP6GXI_N0PAX@Z1@Z) référencé dans la fonction _wWinMain@16
 main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackMsgProc(long (__stdcall*)(struct HWND__ *,unsigned int,unsigned int,long,bool *,void *),void *)" (?DXUTSetCallbackMsgProc@@YGXP6GJPAUHWND__@@IIJPA_NPAX@Z2@Z) référencé dans la fonction _wWinMain@16
