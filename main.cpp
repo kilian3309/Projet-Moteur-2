@@ -221,6 +221,18 @@ void Animate(double fTime) {
 }
 
 /*
+	Cette fonction met à jour toutes les collisions pour les tester
+*/
+void Collide() {
+	g_SecondarySpheres[0].collision			= g_PrimaryFustrum.Contains(g_SecondarySpheres[0].sphere);
+	g_SecondaryOrientedBoxes[0].collision	= g_PrimaryFustrum.Contains(g_SecondaryOrientedBoxes[0].obox);
+	g_SecondaryAABoxes[0].collision			= g_PrimaryFustrum.Contains(g_SecondaryAABoxes[0].aabox);
+	g_SecondaryTriangles[0].collision		= g_PrimaryFustrum.Contains(g_SecondaryTriangles[0].pointa,
+																  g_SecondaryTriangles[0].pointb,
+																  g_SecondaryTriangles[0].pointc);
+}
+
+/*
 	Cette fonction est la fonction où toutes les procedures liées à la fenêtre sont gérées
 	hWnd : Fenêtre principale
 	uMsg : Message envoyé par la boucle événementielle (boucle principale du programme)
