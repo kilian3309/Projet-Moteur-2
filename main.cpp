@@ -109,6 +109,7 @@ bool CALLBACK ModifyDeviceSettings(DXUTD3D11DeviceSettings* pDeviceSettings, voi
 bool CALLBACK IsD3D11DeviceAcceptable(const CD3D11EnumAdapterInfo *AdapterInfo, UINT Output, const CD3D11EnumDeviceInfo *DeviceInfo, DXGI_FORMAT BackBufferFormat, bool bWindowed, void* pUserContext);
 HRESULT CALLBACK OnD3D11CreateDevice(ID3D11Device* pd3dDevice, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext);
 HRESULT CALLBACK OnD3D11ResizedSwapChain(ID3D11Device* pd3dDevice, IDXGISwapChain* pSwapChain, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext);
+void CALLBACK OnD3D11ReleasingSwapChain(void* pUserContext);
 
 void Animate(double fTime);
 void Collide();
@@ -157,7 +158,7 @@ bool CALLBACK IsD3D11DeviceAcceptable(const CD3D11EnumAdapterInfo *AdapterInfo, 
 }
 
 /*
-	
+	Creation des resources D3D11 qui nécéssitent le back buffer
 */
 HRESULT CALLBACK OnD3D11ResizedSwapChain(ID3D11Device* pd3dDevice, IDXGISwapChain* pSwapChain, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext) {
 	HRESULT hr;
@@ -180,6 +181,8 @@ HRESULT CALLBACK OnD3D11ResizedSwapChain(ID3D11Device* pd3dDevice, IDXGISwapChai
 
 	return S_OK;
 }
+
+
 
 /*
 	Cette fonction est appelée quand directX est créé
@@ -496,4 +499,11 @@ void CALLBACK OnFrameMove(double fTime, float fEnlapsedTime, void* pUserContext)
 
 	//Mise à jour de la camera
 	g_Camera.FrameMove(fEnlapsedTime);
+}
+
+/*
+	Libération de la méoire allouée par la swap chain
+*/
+void CALLBACK OnD3D11ReleasingSwapChain(void* pUserContext) {
+	g_DialogResourceManager.OnD3D11ReleasingSwapChain();
 }
