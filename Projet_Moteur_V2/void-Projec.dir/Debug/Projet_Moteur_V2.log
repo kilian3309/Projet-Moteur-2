@@ -1,14 +1,15 @@
-﻿La génération a démarré 30/05/2017 19:19:03.
-     1>Projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" sur le nœud 2 (Build cible(s)).
-     1>InitializeBuildStatus:
+﻿La génération a démarré 30/05/2017 19:21:20.
+     1>Projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" sur le nœud 2 (Rebuild cible(s)).
+     1>_PrepareForClean:
+         Suppression du fichier "void-Projec.dir\Debug\Projet_Moteur_V2.tlog\Projet_Moteur_V2.lastbuildstate".
+       InitializeBuildStatus:
          Création de "void-Projec.dir\Debug\Projet_Moteur_V2.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié.
        ClCompile:
-         Toutes les sorties sont à jour.
          E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /IE:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/include/ /Zi /nologo /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D HAS_DIRECTXTK /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D UNICODE /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"void-Projec.dir\Debug\\" /Fd"void-Projec.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt /LD ..\main.cpp
          main.cpp
      1>e:\c++\projet_moteur_v2\main.cpp(146): warning C4715: 'wWinMain' : les chemins de contrôle ne retournent pas tous une valeur
        ResourceCompile:
-         Toutes les sorties sont à jour.
+         C:\Program Files (x86)\Windows Kits\10\bin\10.0.15063.0\x86\rc.exe /D WIN32 /D _DEBUG /D _WINDOWS /D "CMAKE_INTDIR=\\\"Debug\\\"" /l"0x0409" /IE:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/include/ /nologo /fo"void-Projec.dir\Debug\Collision.res" Collision.rc 
        Link:
          E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++\voidProject\Debug\void-Projec.exe" /INCREMENTAL /NOLOGO /FORCE E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/lib/Win32/Debug/DirectXTKAudioDX.lib E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/lib/Win32/Debug/DirectXTK.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/C++/voidProject/Debug/void-Projec.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/C++/voidProject/Debug/void-Projec.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "void-Projec.dir\Debug\Collision.res"
          "void-Projec.dir\Debug\main.obj"
