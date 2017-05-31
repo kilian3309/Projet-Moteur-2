@@ -113,12 +113,13 @@ void CALLBACK OnD3D11ReleasingSwapChain(void* pUserContext);
 void CALLBACK OnD3D11DestroyDevice(void* pUserContext);
 void CALLBACK OnD3D11FrameRender(ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3dImmediateContext, double fTime,	float fElapsedTime, void* pUserContext);
 
+void InitApp();
 void RenderText();
 
+void InitializeObjects();
 void Animate(double fTime);
 void Collide();
 void RenderObjects();
-
 void SetViewForGroup(int group);
 
 //Draw d'objects
@@ -156,14 +157,31 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	//Configure les fonctions que doit appeler directX pour ses différentes actions
 	DXUTSetCallbackMsgProc(MsgProc);
 	DXUTSetCallbackKeyboard(OnKeyboard);
+	DXUTSetCallbackFrameMove(OnFrameMove);
+	DXUTSetCallbackDeviceChanging(ModifyDeviceSettings);
 
+	DXUTSetCallbackD3D11DeviceAcceptable(IsD3D11DeviceAcceptable);
+	DXUTSetCallbackD3D11DeviceCreated(OnD3D11CreateDevice);
+	DXUTSetCallbackD3D11SwapChainResized(OnD3D11ResizedSwapChain);
+	DXUTSetCallbackD3D11SwapChainReleasing(OnD3D11ReleasingSwapChain);
+	DXUTSetCallbackD3D11DeviceDestroyed(OnD3D11DestroyDevice);
+	DXUTSetCallbackD3D11FrameRender(OnD3D11FrameRender);
+
+	InitApp();
+	DXUTInit(true, true, nullptr); //Parse les parametres de la command line, affiche les msbox comme des erreurs, pas de paramètres en plus
+	DXUTSetCursorSettings(L"ISN Motor v2");
+
+	DXUTCreateDevice(D3D_FEATURE_LEVEL_10_0, true, 800, 600);
+	DXUTMainLoop(); //DXUT loop de render
+
+	return DXUTGetExitCode();
 
 }
 
 /*
-	
+	Bon on sfait chier non ?
 */
-bool CALLBACK ModifyDeviceSettings(DXUTD3D11DeviceSettings* pDeviceSettings, void* pUserContext) {
+bool CALLBACK ModifyDeviceSettings(DXUTDeviceSettings* pDeviceSettings, void* pUserContext) {
 	return true;
 }
 
@@ -206,7 +224,34 @@ HRESULT CALLBACK OnD3D11ResizedSwapChain(ID3D11Device* pd3dDevice, IDXGISwapChai
 	return S_OK;
 }
 
+void InitApp() {
+	g_SettingsDlg.Init(&g_DialogResourceManager);
+	g_HUD.Init(&g_DialogResourceManager);
+	g_SampleUI.Init(&g_DialogResourceManager);
 
+	g_HUD.SetCallback(OnGUIEvent);
+	int iY = 30;
+	int iYo = 26;
+	g_HUD.AddButton(IDC_TOGGLEFULLSCREEN, L"Toggle full screen", 0, iY, 170, 22);
+	g_HUD.AddButton(IDC_CHANGEDEVICE, L"Change device (F2)", 0, iY += iYo, 170, 22, VK_F2);
+	g_HUD.AddButton(IDC_TOGGLEREF, L"Toggle REF (F3)", 0, iY += iYo, 170, 22, VK_F3);
+	g_HUD.AddButton(IDC_TOGGLEWARP, L"Toggle WARP (F4)", 0, iY += iYo, 170, 22, VK_F4);
+
+	g_SampleUI.SetCallback(OnGUIEvent);
+
+	CDXUTComboBox* pComboBox = nullptr;
+	g_SampleUI.AddStatic(IDC_STATIC, L"(G)roup", 10, 0, 170, 25);
+	g_SampleUI.AddComboBox(IDC_GROUP, 0, 25, 170, 24, 'G', false, &pComboBox);
+	if (pComboBox)
+		pComboBox->SetDropHeight(50);
+
+	pComboBox->AddItem(L"Frustum", IntToPtr(0));
+	pComboBox->AddItem(L"Axis-aligned Box", IntToPtr(1));
+	pComboBox->AddItem(L"Oriented Box", IntToPtr(2));
+	pComboBox->AddItem(L"Ray", IntToPtr(3));
+
+	InitializeObjects();
+}
 
 /*
 	Cette fonction est appelée quand directX est créé
