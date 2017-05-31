@@ -110,11 +110,26 @@ bool CALLBACK IsD3D11DeviceAcceptable(const CD3D11EnumAdapterInfo *AdapterInfo, 
 HRESULT CALLBACK OnD3D11CreateDevice(ID3D11Device* pd3dDevice, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext);
 HRESULT CALLBACK OnD3D11ResizedSwapChain(ID3D11Device* pd3dDevice, IDXGISwapChain* pSwapChain, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext);
 void CALLBACK OnD3D11ReleasingSwapChain(void* pUserContext);
+void CALLBACK OnD3D11DestroyDevice(void* pUserContext);
+void CALLBACK OnD3D11FrameRender(ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3dImmediateContext, double fTime,	float fElapsedTime, void* pUserContext);
+
+void RenderText();
 
 void Animate(double fTime);
 void Collide();
+void RenderObjects();
 
 void SetViewForGroup(int group);
+
+//Draw d'objects
+void DrawGrid(FXMVECTOR xAxis, FXMVECTOR yAxis, FXMVECTOR origin, size_t xdivs, size_t ydivs, GXMVECTOR color);
+void DrawFrustum(const BoundingFrustum& frustum, FXMVECTOR color);
+void DrawAabb(const BoundingBox& box, FXMVECTOR color);
+void DrawObb(const BoundingOrientedBox& obb, FXMVECTOR color);
+void DrawSphere(const BoundingSphere& sphere, FXMVECTOR color);
+void DrawRay(FXMVECTOR Origin, FXMVECTOR Direction, bool bNormalize, FXMVECTOR color);
+void DrawTriangle(FXMVECTOR PointA, FXMVECTOR PointB, FXMVECTOR PointC, CXMVECTOR color);
+
 
 
 /*
@@ -155,6 +170,15 @@ bool CALLBACK ModifyDeviceSettings(DXUTD3D11DeviceSettings* pDeviceSettings, voi
 //Elle est acceptable pose pas de question
 bool CALLBACK IsD3D11DeviceAcceptable(const CD3D11EnumAdapterInfo *AdapterInfo, UINT Output, const CD3D11EnumDeviceInfo *DeviceInfo, DXGI_FORMAT BackBufferFormat, bool bWindowed, void* pUserContext) {
 	return true;
+}
+
+void RenderText() {
+	g_pTxtHelper->Begin();
+	g_pTxtHelper->SetInsertionPos(5, 5);
+	g_pTxtHelper->SetForegroundColor(Colors::Yellow);
+	g_pTxtHelper->DrawTextLine(DXUTGetFrameStats(DXUTIsVsyncEnabled()));
+	g_pTxtHelper->DrawTextLine(DXUTGetDeviceStats());
+	g_pTxtHelper->End();
 }
 
 /*
@@ -403,6 +427,21 @@ void Collide() {
 	}
 }
 
+inline XMVECTOR GetCollisionColor(ContainmentType collision, int groupnumber)
+{
+	//
+	if (groupnumber >= 3 && collision > 0)
+		collision = CONTAINS;
+
+	switch (collision)
+	{
+	case DISJOINT:      return Colors::Green;
+	case INTERSECTS:    return Colors::Yellow;
+	case CONTAINS:
+	default:            return Colors::Red;
+	}
+}
+
 /*
 	Cette fonction est la fonction où toutes les procedures liées à la fenêtre sont gérées
 	hWnd : Fenêtre principale
@@ -502,8 +541,116 @@ void CALLBACK OnFrameMove(double fTime, float fEnlapsedTime, void* pUserContext)
 }
 
 /*
-	Libération de la méoire allouée par la swap chain
+	Libération de la mémoire allouée par la swap chain dans OnD3D11ResizedSwapChain
 */
 void CALLBACK OnD3D11ReleasingSwapChain(void* pUserContext) {
 	g_DialogResourceManager.OnD3D11ReleasingSwapChain();
+}
+
+/*
+	Libération de la mémoire des resources créées dans OnD3D11CreateDevice
+*/
+void CALLBACK OnD3D11DestroyDevice(void* pUserContext) {
+	g_DialogResourceManager.OnD3D11DestroyDevice();
+	g_SettingsDlg.OnD3D11DestroyDevice();
+	DXUTGetGlobalResourceCache().OnDestroyDevice();
+	SAFE_DELETE(g_pTxtHelper);
+
+	g_States.reset();
+	g_BatchEffect.reset();
+	g_Batch.reset();
+
+	SAFE_RELEASE(g_pBatchInputLayout);
+}
+
+void CALLBACK OnD3D11FrameRender(ID3D11Device* pd3dDevice, ID3D11DeviceContext* pd3dImmediateContext, double fTime, float fElapsedTime, void* pUserContext) {
+	//
+	if (g_SettingsDlg.IsActive()) {
+		g_SettingsDlg.OnRender(fElapsedTime);
+		return;
+	}
+
+	auto pRTV = DXUTGetD3D11RenderTargetView();
+	pd3dImmediateContext->ClearRenderTargetView(pRTV, Colors::MidnightBlue);
+
+	auto pDSV = DXUTGetD3D11DepthStencilView();
+	pd3dImmediateContext->ClearDepthStencilView(pDSV, D3D11_CLEAR_DEPTH, 1.0, 0);
+
+	//Récupération de la projection et de la matrix de view depuis la class camera
+	XMMATRIX mWorld = g_Camera.GetWorldMatrix();
+	XMMATRIX mView = g_Camera.GetViewMatrix();
+	XMMATRIX mProj = g_Camera.GetProjMatrix();
+
+	g_BatchEffect->SetWorld(mWorld);
+	g_BatchEffect->SetView(mView);
+	g_BatchEffect->SetProjection(mProj);
+
+	//Draw objets
+	RenderObjects();
+
+	//Render le HUD (faudra lui trouver un nom de spy)
+	DXUT_BeginPerfEvent(DXUT_PERFEVENTCOLOR, L"HUD / Stats");
+	g_HUD.OnRender(fElapsedTime);
+	g_SampleUI.OnRender(fElapsedTime);
+	RenderText();
+	DXUT_EndPerfEvent();
+	static ULONGLONG timefirst = GetTickCount64();
+	if (GetTickCount64() - timefirst > 5000) {
+		OutputDebugString(DXUTGetFrameStats(DXUTIsVsyncEnabled()));
+		OutputDebugString(L"\n");
+		timefirst = GetTickCount64();
+	}
+}
+
+/*
+	Render les objets à collision (c'est pas très francais je sait)
+*/
+void RenderObjects() {
+	//Draw les planes du sol (les grilles quoi)
+	for (int i(0); i < CAMERA_COUNT; ++i) {
+		static const XMVECTORF32 s_vXAxis = { 20.f, 0.f, 0.f, 0.f };
+		static const XMVECTORF32 s_vYAxis = { 0.f, 0.f, 20.f, 0.f };
+
+		static const XMVECTORF32 s_Offset = { 0.f, 10.f, 0.f, 0.f };
+		XMVECTOR vOrigin = g_CameraOrigins[i] - s_Offset;
+
+		const int iXDivisions = 20;
+		const int iYDivisions = 20;
+
+		DrawGrid(s_vXAxis, s_vYAxis, vOrigin, iXDivisions, iYDivisions, Colors::Black);
+	}
+
+	//Draw les objets de collisions primary
+	DrawFrustum(g_PrimaryFustrum, Colors::White);
+	DrawAabb(g_PrimaryAABox, Colors::White);
+	DrawObb(g_PrimaryOrientedBox, Colors::White);
+
+	{
+		XMVECTOR Direction = XMVectorScale(g_PrimaryRay.direction, 10.0f);
+		DrawRay(g_PrimaryRay.origin, Direction, false, Colors::LightGray);
+		DrawRay(g_PrimaryRay.origin, Direction, false, Colors::White);
+	}
+
+	//Draw les objets de collision secondaires (ceux qui bougent) en couleur en se basant sur les resultats des collisions
+	for (int i(0); i < GROUP_COUNT; ++i) {
+		const CollisionSphere& sphere = g_SecondarySpheres[i];
+		XMVECTOR c = GetCollisionColor(sphere.collision, i);
+		DrawSphere(sphere.sphere, c);
+
+		const CollisionBox& obox = g_SecondaryOrientedBoxes[i];
+		c = GetCollisionColor(obox.collision, i);
+		DrawObb(obox.obox, c);
+
+		const CollisionAABox& aabox = g_SecondaryAABoxes[i];
+		c = GetCollisionColor(aabox.collision, i);
+		DrawAabb(aabox.aabox, c);
+
+		const CollisionTriangle& tri = g_SecondaryTriangles[i];
+		c = GetCollisionColor(tri.collision, i);
+		DrawTriangle(tri.pointa, tri.pointb, tri.pointc, c);
+	}
+
+	//Draw le resultat de la collision du ray (le petit carré)
+	if (g_RayHitResultBox.collision != DISJOINT)
+		DrawAabb(g_RayHitResultBox.aabox, Colors::Yellow);
 }
