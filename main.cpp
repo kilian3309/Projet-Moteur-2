@@ -105,7 +105,7 @@ LRESULT CALLBACK MsgProc(HWND hWnd, UINT uMsg, WPARAM wParam, LPARAM lParam, boo
 void CALLBACK OnKeyboard(UINT nChar, bool bKeyDown, bool bAltDown, void* pUserContext);
 void CALLBACK OnGUIEvent(UINT nEvent, int nControlID, CDXUTControl* pControl, void* pUserContext);
 void CALLBACK OnFrameMove(double fTime, float fEnlapsedTime, void* pUserContext);
-bool CALLBACK ModifyDeviceSettings(DXUTD3D11DeviceSettings* pDeviceSettings, void* pUserContext);
+bool CALLBACK ModifyDeviceSettings(DXUTDeviceSettings* pDeviceSettings, void* pUserContext);
 bool CALLBACK IsD3D11DeviceAcceptable(const CD3D11EnumAdapterInfo *AdapterInfo, UINT Output, const CD3D11EnumDeviceInfo *DeviceInfo, DXGI_FORMAT BackBufferFormat, bool bWindowed, void* pUserContext);
 HRESULT CALLBACK OnD3D11CreateDevice(ID3D11Device* pd3dDevice, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext);
 HRESULT CALLBACK OnD3D11ResizedSwapChain(ID3D11Device* pd3dDevice, IDXGISwapChain* pSwapChain, const DXGI_SURFACE_DESC* pBackBufferSurfaceDesc, void* pUserContext);
@@ -160,6 +160,8 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	DXUTSetCallbackFrameMove(OnFrameMove);
 	DXUTSetCallbackDeviceChanging(ModifyDeviceSettings);
 
+	
+
 	DXUTSetCallbackD3D11DeviceAcceptable(IsD3D11DeviceAcceptable);
 	DXUTSetCallbackD3D11DeviceCreated(OnD3D11CreateDevice);
 	DXUTSetCallbackD3D11SwapChainResized(OnD3D11ResizedSwapChain);
@@ -181,15 +183,20 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 /*
 	Bon on sfait chier non ?
 */
-bool CALLBACK ModifyDeviceSettings(DXUTDeviceSettings* pDeviceSettings, void* pUserContext) {
+bool CALLBACK ModifyDeviceSettings(DXUTDeviceSettings* pDeviceSettings, void* pUserContext)
+{
 	return true;
 }
+
 
 //Elle est acceptable pose pas de question
 bool CALLBACK IsD3D11DeviceAcceptable(const CD3D11EnumAdapterInfo *AdapterInfo, UINT Output, const CD3D11EnumDeviceInfo *DeviceInfo, DXGI_FORMAT BackBufferFormat, bool bWindowed, void* pUserContext) {
 	return true;
 }
 
+/*
+	Faire le render des caracteristiques de tout ce qui touche au graphique (carte, fps ...)
+*/
 void RenderText() {
 	g_pTxtHelper->Begin();
 	g_pTxtHelper->SetInsertionPos(5, 5);
