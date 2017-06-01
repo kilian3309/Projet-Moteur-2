@@ -706,3 +706,19 @@ void RenderObjects() {
 	if (g_RayHitResultBox.collision != DISJOINT)
 		DrawAabb(g_RayHitResultBox.aabox, Colors::Yellow);
 }
+
+/*
+	
+*/
+void InitializeObjects() {
+	const XMVECTOR XMZero = XMVectorZero();
+
+	//construction du primary frustum depuis une matrix de projection de D3D
+	//Note: Cela peut être aussi fait depuis la matriux de projection de la camera
+	XMMATRIX xmProj = XMMatrixPerspectiveFovLH(XM_PIDIV4, 1.77778f, 0.5f, 10.0f);
+	BoundingFrustum::CreateFromMatrix(g_PrimaryFustrum, xmProj);
+	g_PrimaryFustrum.Origin.z = -7.0f;
+	g_CameraOrigins[0] = XMVectorSet(0, 0, 0, 0);
+
+
+}
