@@ -3,7 +3,7 @@
 #include <DXUTcamera.h>
 #include <DXUTsettingsdlg.h>
 #include <SDKmisc.h>
-#include "e:/C++/Projet_Moteur_V2/Projet_Moteur_V2/resource.h" //VS ne veut pas le prendre sans le chemin complet ???
+#include "../Projet_Moteur_V2/Projet_Moteur_V2/resource.h"
 
 #include <DirectXColors.h>
 #include <DirectXCollision.h>
