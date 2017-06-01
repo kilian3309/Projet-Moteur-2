@@ -689,17 +689,17 @@ void RenderObjects() {
 		XMVECTOR c = GetCollisionColor(sphere.collision, i);
 		DrawSphere(sphere.sphere, c);
 
-		const CollisionBox& obox = g_SecondaryOrientedBoxes[i];
-		c = GetCollisionColor(obox.collision, i);
-		DrawObb(obox.obox, c);
+const CollisionBox& obox = g_SecondaryOrientedBoxes[i];
+c = GetCollisionColor(obox.collision, i);
+DrawObb(obox.obox, c);
 
-		const CollisionAABox& aabox = g_SecondaryAABoxes[i];
-		c = GetCollisionColor(aabox.collision, i);
-		DrawAabb(aabox.aabox, c);
+const CollisionAABox& aabox = g_SecondaryAABoxes[i];
+c = GetCollisionColor(aabox.collision, i);
+DrawAabb(aabox.aabox, c);
 
-		const CollisionTriangle& tri = g_SecondaryTriangles[i];
-		c = GetCollisionColor(tri.collision, i);
-		DrawTriangle(tri.pointa, tri.pointb, tri.pointc, c);
+const CollisionTriangle& tri = g_SecondaryTriangles[i];
+c = GetCollisionColor(tri.collision, i);
+DrawTriangle(tri.pointa, tri.pointb, tri.pointc, c);
 	}
 
 	//Draw le resultat de la collision du ray (le petit carré)
@@ -708,7 +708,7 @@ void RenderObjects() {
 }
 
 /*
-	
+
 */
 void InitializeObjects() {
 	const XMVECTOR XMZero = XMVectorZero();
@@ -737,7 +737,7 @@ void InitializeObjects() {
 	g_CameraOrigins[3] = XMVectorSet(0, 0, CAMERA_SPACING, 0);
 
 	//Initialisation de tous les objets secondaires avec les valeurs par défaut
-	for (UINT i = 0; i < GROUP_COUNT; i++)
+	for (UINT i(0u); i < GROUP_COUNT; ++i)
 	{
 		g_SecondarySpheres[i].sphere.Radius = 1.0f;
 		g_SecondarySpheres[i].sphere.Center = XMFLOAT3(0, 0, 0);
@@ -762,4 +762,40 @@ void InitializeObjects() {
 	g_RayHitResultBox.aabox.Center = XMFLOAT3(0, 0, 0);
 	g_RayHitResultBox.aabox.Extents = XMFLOAT3(0.05f, 0.05f, 0.05f);
 
+}
+
+
+/*
+	Dessiner une grille
+*/
+void DrawGrid(FXMVECTOR xAxis, FXMVECTOR yAxis, FXMVECTOR origin, size_t xdivs, size_t ydivs, GXMVECTOR color) {
+	auto context = DXUTGetD3D11DeviceContext();
+	g_BatchEffect->Apply(context);
+
+	context->IASetInputLayout(g_pBatchInputLayout);
+	g_Batch->Begin();
+
+	xdivs = std::max<size_t>(1, xdivs);
+	ydivs = std::max<size_t>(1, ydivs);
+
+	for (size_t i(0u); i <= xdivs; ++i) {
+		float fPercent = float(i) / float(xdivs);
+		fPercent = (fPercent*2.0f) - 1.0f;
+		XMVECTOR vScale = XMVectorScale(xAxis, fPercent);
+
+		VertexPositionColor v1(XMVectorSubtract(vScale, yAxis), color);
+		VertexPositionColor v2(XMVectorAdd(vScale, yAxis), color);
+		g_Batch->DrawLine(v1, v2);
+	}
+
+	for (size_t i(0); i <= ydivs; ++i) {
+		FLOAT fPercent = float(i) / float(ydivs);
+		fPercent = (fPercent*2.0f) - 1.0f;
+		XMVECTOR vScale = XMVectorScale(yAxis, fPercent);
+		vScale = XMVectorAdd(vScale, origin);
+
+		VertexPositionColor v1(XMVectorSubtract(vScale, xAxis), color);
+		VertexPositionColor v2(XMVectorAdd(vScale, xAxis), color);
+		g_Batch->DrawLine(v1, v2);
+}
 }
