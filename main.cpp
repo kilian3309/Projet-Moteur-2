@@ -720,5 +720,46 @@ void InitializeObjects() {
 	g_PrimaryFrustum.Origin.z = -7.0f;
 	g_CameraOrigins[0] = XMVectorSet(0, 0, 0, 0);
 
+	//Construction de l'AABox
+	g_PrimaryAABox.Center = XMFLOAT3(CAMERA_SPACING, 0, 0);
+	g_PrimaryAABox.Extents = XMFLOAT3(5, 5, 5);
+	g_CameraOrigins[1] = XMVectorSet(CAMERA_SPACING, 0, 0, 0);
+
+	//Construction de l'OBox
+	g_PrimaryOrientedBox.Center = XMFLOAT3(-CAMERA_SPACING, 0, 0);
+	g_PrimaryOrientedBox.Extents = XMFLOAT3(5, 5, 5);
+	XMStoreFloat4(&g_PrimaryOrientedBox.Orientation, XMQuaternionRotationRollPitchYaw(XM_PIDIV4, XM_PIDIV4, 0));
+	g_CameraOrigins[2] = XMVectorSet(-CAMERA_SPACING, 0, 0, 0);
+
+	//Construction du ray
+	g_PrimaryRay.origin = XMVectorSet(0, 0, CAMERA_SPACING, 0);
+	g_PrimaryRay.direction = g_XMIdentityR2;
+	g_CameraOrigins[3] = XMVectorSet(0, 0, CAMERA_SPACING, 0);
+
+	//Initialisation de tous les objets secondaires avec les valeurs par défaut
+	for (UINT i = 0; i < GROUP_COUNT; i++)
+	{
+		g_SecondarySpheres[i].sphere.Radius = 1.0f;
+		g_SecondarySpheres[i].sphere.Center = XMFLOAT3(0, 0, 0);
+		g_SecondarySpheres[i].collision = DISJOINT;
+
+		g_SecondaryOrientedBoxes[i].obox.Center = XMFLOAT3(0, 0, 0);
+		g_SecondaryOrientedBoxes[i].obox.Extents = XMFLOAT3(0.5f, 0.5f, 0.5f);
+		g_SecondaryOrientedBoxes[i].obox.Orientation = XMFLOAT4(0, 0, 0, 1);
+		g_SecondaryOrientedBoxes[i].collision = DISJOINT;
+
+		g_SecondaryAABoxes[i].aabox.Center = XMFLOAT3(0, 0, 0);
+		g_SecondaryAABoxes[i].aabox.Extents = XMFLOAT3(0.5f, 0.5f, 0.5f);
+		g_SecondaryAABoxes[i].collision = DISJOINT;
+
+		g_SecondaryTriangles[i].pointa = XMZero;
+		g_SecondaryTriangles[i].pointb = XMZero;
+		g_SecondaryTriangles[i].pointc = XMZero;
+		g_SecondaryTriangles[i].collision = DISJOINT;
+	}
+
+	//Construction de l'AABox qui est le résultat de la collision avec le ray
+	g_RayHitResultBox.aabox.Center = XMFLOAT3(0, 0, 0);
+	g_RayHitResultBox.aabox.Extents = XMFLOAT3(0.05f, 0.05f, 0.05f);
 
 }
