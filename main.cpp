@@ -797,5 +797,6 @@ void DrawGrid(FXMVECTOR xAxis, FXMVECTOR yAxis, FXMVECTOR origin, size_t xdivs, 
 		VertexPositionColor v1(XMVectorSubtract(vScale, xAxis), color);
 		VertexPositionColor v2(XMVectorAdd(vScale, xAxis), color);
 		g_Batch->DrawLine(v1, v2);
-}
+	}
+	g_Batch->End();
 }
