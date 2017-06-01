@@ -13,6 +13,8 @@
 #include "PrimitiveBatch.h"
 #include "VertexTypes.h"
 
+#pragma warning(disable:4100)
+
 using namespace DirectX;
 
 //Objets à hitbox
