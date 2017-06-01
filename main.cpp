@@ -78,7 +78,7 @@ std::unique_ptr<PrimitiveBatch<VertexPositionColor>> g_Batch;
 XMVECTOR g_CameraOrigins[CAMERA_COUNT]; //Liste des emplacements de la caméra
 
 //Objets primaires (les gros quoi)
-BoundingFrustum				g_PrimaryFustrum;	//Frustrum : Cone (à base circulaire ou carée) sans pointe du coup le sommet est plat. Vu de coté : Trapèze
+BoundingFrustum				g_PrimaryFrustum;	//Frustrum : Cone (à base circulaire ou carée) sans pointe du coup le sommet est plat. Vu de coté : Trapèze
 BoundingOrientedBox			g_PrimaryOrientedBox;
 BoundingBox					g_PrimaryAABox;
 CollisionRay				g_PrimaryRay;
@@ -401,10 +401,10 @@ void Animate(double fTime) {
 void Collide() {
 
 	//Test les collisions entre les objets et le frustum
-	g_SecondarySpheres[0].collision			= g_PrimaryFustrum.Contains(g_SecondarySpheres[0].sphere);
-	g_SecondaryOrientedBoxes[0].collision	= g_PrimaryFustrum.Contains(g_SecondaryOrientedBoxes[0].obox);
-	g_SecondaryAABoxes[0].collision			= g_PrimaryFustrum.Contains(g_SecondaryAABoxes[0].aabox);
-	g_SecondaryTriangles[0].collision		= g_PrimaryFustrum.Contains(g_SecondaryTriangles[0].pointa,
+	g_SecondarySpheres[0].collision			= g_PrimaryFrustum.Contains(g_SecondarySpheres[0].sphere);
+	g_SecondaryOrientedBoxes[0].collision	= g_PrimaryFrustum.Contains(g_SecondaryOrientedBoxes[0].obox);
+	g_SecondaryAABoxes[0].collision			= g_PrimaryFrustum.Contains(g_SecondaryAABoxes[0].aabox);
+	g_SecondaryTriangles[0].collision		= g_PrimaryFrustum.Contains(g_SecondaryTriangles[0].pointa,
 																  g_SecondaryTriangles[0].pointb,
 																  g_SecondaryTriangles[0].pointc);
 
@@ -673,7 +673,7 @@ void RenderObjects() {
 	}
 
 	//Draw les objets de collisions primary
-	DrawFrustum(g_PrimaryFustrum, Colors::White);
+	DrawFrustum(g_PrimaryFrustum, Colors::White);
 	DrawAabb(g_PrimaryAABox, Colors::White);
 	DrawObb(g_PrimaryOrientedBox, Colors::White);
 
@@ -716,8 +716,8 @@ void InitializeObjects() {
 	//construction du primary frustum depuis une matrix de projection de D3D
 	//Note: Cela peut être aussi fait depuis la matriux de projection de la camera
 	XMMATRIX xmProj = XMMatrixPerspectiveFovLH(XM_PIDIV4, 1.77778f, 0.5f, 10.0f);
-	BoundingFrustum::CreateFromMatrix(g_PrimaryFustrum, xmProj);
-	g_PrimaryFustrum.Origin.z = -7.0f;
+	BoundingFrustum::CreateFromMatrix(g_PrimaryFrustum, xmProj);
+	g_PrimaryFrustum.Origin.z = -7.0f;
 	g_CameraOrigins[0] = XMVectorSet(0, 0, 0, 0);
 
 
