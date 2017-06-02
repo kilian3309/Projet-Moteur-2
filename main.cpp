@@ -57,10 +57,8 @@ struct CollisionRay
 };
 
 //Constantes
-enum {
-	GROUP_COUNT = 4,
-	CAMERA_COUNT = 4
-};
+const int GROUP_COUNT = 4;
+const int CAMERA_COUNT = 4;
 const float CAMERA_SPACING = 50.f;
 
 //Variables globales

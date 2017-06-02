@@ -1,4 +1,4 @@
-﻿La génération a démarré 02/06/2017 10:20:03.
+﻿La génération a démarré 02/06/2017 10:21:13.
 Environnement au début de la génération :
 ADSK_3DSMAX_SDK_2017 = I:\Programms\AutoDesk\3D MAX\3ds Max 2017 SDK\maxsdk
 ADSK_3DSMAX_x64_2017 = I:\Programms\AutoDesk\3D MAX\3ds Max 2017\
@@ -58,8 +58,8 @@ VSLANG = 1036
 VSSDK140Install = E:\Programs\VS15\VSSDK\
 windir = C:\WINDOWS
 
-10:20:03.832     1>Projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" sur le nœud 2 (Build cible(s)).
-10:20:03.832     1>Propriétés initiales :
+10:21:13.365     1>Projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" sur le nœud 2 (Build cible(s)).
+10:21:13.365     1>Propriétés initiales :
                    _AfterCompileWinFXInternalDependsOn = 
                            PrepareResourcesForSatelliteAssemblies;
                            MergeLocalizationDirectives;
@@ -1259,8 +1259,8 @@ windir = C:\WINDOWS
                    XamlTemporaryAssemblyName = Projet_Moteur_V2
                    YieldDuringToolExecution = true
 
-10:20:03.832     1>Génération à l'aide des outils version "15.0".
-10:20:03.832     1>Cible "directxtk_desktop_2015_init_targets_0 : (IdCible:2)" dans le fichier "E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (point d'entrée) :
+10:21:13.365     1>Génération à l'aide des outils version "15.0".
+10:21:13.365     1>Cible "directxtk_desktop_2015_init_targets_0 : (IdCible:2)" dans le fichier "E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (point d'entrée) :
                    Utilisation de la tâche "Copy" à partir de l'assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Tâche "Copy" (IDTâche:2)
                      Paramètre de tâche :SkipUnchangedFiles=True (IDTâche:2)
@@ -1268,8 +1268,8 @@ windir = C:\WINDOWS
                      Paramètre de tâche :DestinationFiles=E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\\private\coapp.NuGetNativeMSBuildTasks.dll (IDTâche:2)
                      Impossible de copier le fichier "E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\\private\coapp.NuGetNativeMSBuildTasks.dll.orig" vers le fichier "E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\\private\coapp.NuGetNativeMSBuildTasks.dll", car le paramètre "SkipUnchangedFiles" a la valeur "true" dans le projet, et la taille des fichiers et les horodatages correspondent. (IDTâche:2)
                    Exécution de la tâche "Copy" terminée. (IDTâche:2)
-10:20:03.918     1>Génération de la cible "directxtk_desktop_2015_init_targets_0" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:2)
-10:20:03.918     1>Cible "directxtk_desktop_2015_init_targets_1 : (IdCible:3)" dans le fichier "E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (point d'entrée) :
+10:21:13.367     1>Génération de la cible "directxtk_desktop_2015_init_targets_0" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:2)
+10:21:13.367     1>Cible "directxtk_desktop_2015_init_targets_1 : (IdCible:3)" dans le fichier "E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (point d'entrée) :
                    Tâche "StringContains" ignorée en raison d'une fausse condition ; ('$(CallingConventions-directxtk_desktop_2015)'=='') a été évaluée comme ('cdecl'=='').
                    Tâche "StringContains" ignorée en raison d'une fausse condition ; ('$(CallingConventions-directxtk_desktop_2015)'=='') a été évaluée comme ('cdecl'=='').
                    Tâche "StringContains" ignorée en raison d'une fausse condition ; ('$(CallingConventions-directxtk_desktop_2015)'=='') a été évaluée comme ('cdecl'=='').
@@ -1280,8 +1280,8 @@ windir = C:\WINDOWS
                    Tâche "StringContains" ignorée en raison d'une fausse condition ; ('$(Linkages-directxtk_desktop_2015)'=='') a été évaluée comme ('dynamic'=='').
                    Tâche "StringContains" ignorée en raison d'une fausse condition ; ('$(Linkages-directxtk_desktop_2015)'=='') a été évaluée comme ('dynamic'=='').
                    Tâche "StringContains" ignorée en raison d'une fausse condition ; ('$(Linkages-directxtk_desktop_2015)'=='') a été évaluée comme ('dynamic'=='').
-10:20:03.918     1>Génération de la cible "directxtk_desktop_2015_init_targets_1" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:3)
-10:20:03.918     1>Cible "_CheckForInvalidConfigurationAndPlatform : (IdCible:4)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_PrepareForBuild" en dépend) :
+10:21:13.367     1>Génération de la cible "directxtk_desktop_2015_init_targets_1" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:3)
+10:21:13.367     1>Cible "_CheckForInvalidConfigurationAndPlatform : (IdCible:4)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_PrepareForBuild" en dépend) :
                    Propriété définie : _InvalidConfigurationMessageText=The OutputPath property is not set for project 'Projet_Moteur_V2.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.
                    Propriété définie : _InvalidConfigurationMessageText=The OutputPath property is not set for project 'Projet_Moteur_V2.vcxproj'.  Please check to make sure that you have specified a valid combination of Configuration and Platform for this project.  Configuration='Debug'  Platform='Win32'.  This error may also appear if some other project is trying to follow a project-to-project reference to this project, this project has been unloaded or is not included in the solution, and the referencing project does not build using the same or an equivalent Configuration or Platform.
                    Tâche "Error" ignorée en raison d'une fausse condition ; ( '$(_InvalidConfigurationError)' == 'true' ) a été évaluée comme ( '' == 'true' ).
@@ -1300,8 +1300,8 @@ windir = C:\WINDOWS
                    Tâche "Error" ignorée en raison d'une fausse condition ; ('$(OutDir)' != '' and !HasTrailingSlash('$(OutDir)')) a été évaluée comme ('E:\C++\voidProject\Debug\' != '' and !HasTrailingSlash('E:\C++\voidProject\Debug\')).
                    Tâche "Error" ignorée en raison d'une fausse condition ; ('$(BaseIntermediateOutputPath)' != '' and !HasTrailingSlash('$(BaseIntermediateOutputPath)')) a été évaluée comme ('obj\' != '' and !HasTrailingSlash('obj\')).
                    Tâche "Error" ignorée en raison d'une fausse condition ; ('$(IntermediateOutputPath)' != '' and !HasTrailingSlash('$(IntermediateOutputPath)')) a été évaluée comme ('void-Projec.dir\Debug\' != '' and !HasTrailingSlash('void-Projec.dir\Debug\')).
-10:20:03.919     1>Génération de la cible "_CheckForInvalidConfigurationAndPlatform" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:4)
-10:20:03.919     1>Cible "_PrepareForBuild : (IdCible:5)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
+10:21:13.367     1>Génération de la cible "_CheckForInvalidConfigurationAndPlatform" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:4)
+10:21:13.367     1>Cible "_PrepareForBuild : (IdCible:5)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
                    Propriété définie : BuildType=Build
                    Propriété définie : _BuildActionType=Build
                    Tâche "CreateItem" ignorée en raison d'une fausse condition ; ('%(CustomBuild.IncludeFileToTool)'!='') a été évaluée comme (''!='').
@@ -1309,17 +1309,17 @@ windir = C:\WINDOWS
                        CustomBuildStep=
                            Projet_Moteur_V2
                                    Message=Performing Custom Build Step
-10:20:03.920     1>Génération de la cible "_PrepareForBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:5)
-10:20:03.920     1>Cible "_PrepareForReferenceResolution : (IdCible:6)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
+10:21:13.367     1>Génération de la cible "_PrepareForBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:5)
+10:21:13.367     1>Cible "_PrepareForReferenceResolution : (IdCible:6)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
                    Propriété définie : TargetFrameworkMoniker=
                    Propriété définie : _FindDependencies=false
                    Propriété définie : AdditionalExplicitAssemblyReferences=
                    Tâche "Message" ignorée en raison d'une fausse condition ; ('$(_REFERENCE_DEBUG)'=='true') a été évaluée comme (''=='true').
-10:20:03.920     1>Génération de la cible "_PrepareForReferenceResolution" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:6)
+10:21:13.367     1>Génération de la cible "_PrepareForReferenceResolution" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:6)
                    Cible "ComputeCrtSDKReference" ignorée en raison d'une fausse condition ; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') a été évaluée comme ('..\main.cpp'!='' and 'false'=='true' and '' != 'false').
-10:20:03.920     1>Cible "BeforeResolveReferences : (IdCible:7)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
-10:20:03.920     1>Génération de la cible "BeforeResolveReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:7)
-10:20:03.920     1>Cible "AssignProjectConfiguration : (IdCible:8)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
+10:21:13.367     1>Cible "BeforeResolveReferences : (IdCible:7)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
+10:21:13.367     1>Génération de la cible "BeforeResolveReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:7)
+10:21:13.367     1>Cible "AssignProjectConfiguration : (IdCible:8)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
                    Propriété définie : ShouldUnsetParentConfigurationAndPlatform=true
                    Utilisation de la tâche "AssignProjectConfiguration" à partir de l'assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Tâche "AssignProjectConfiguration" (IDTâche:5)
@@ -1334,12 +1334,12 @@ windir = C:\WINDOWS
                      Paramètre de tâche :OnlyReferenceAndBuildProjectsEnabledInSolutionConfiguration=True (IDTâche:5)
                      Paramètre de tâche :ShouldUnsetParentConfigurationAndPlatform=True (IDTâche:5)
                    Exécution de la tâche "AssignProjectConfiguration" terminée. (IDTâche:5)
-10:20:03.921     1>Génération de la cible "AssignProjectConfiguration" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:8)
+10:21:13.368     1>Génération de la cible "AssignProjectConfiguration" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:8)
                    Cible "AssignProjectConfiguration" ignorée. Elle a été générée.
-10:20:03.921     1>Cible "_SplitProjectReferencesByFileExistence : (IdCible:9)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareProjectReferences" en dépend) :
+10:21:13.368     1>Cible "_SplitProjectReferencesByFileExistence : (IdCible:9)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareProjectReferences" en dépend) :
                    Tâche "ResolveNonMSBuildProjectOutput" ignorée en raison d'une fausse condition ; ('$(BuildingInsideVisualStudio)'=='true' and '@(ProjectReferenceWithConfiguration)'!='') a été évaluée comme ('true'=='true' and ''!='').
-10:20:03.922     1>Génération de la cible "_SplitProjectReferencesByFileExistence" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:9)
-10:20:03.922     1>Cible "_GetProjectReferenceTargetFrameworkProperties : (IdCible:10)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareProjectReferences" en dépend) :
+10:21:13.368     1>Génération de la cible "_SplitProjectReferencesByFileExistence" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:9)
+10:21:13.368     1>Cible "_GetProjectReferenceTargetFrameworkProperties : (IdCible:10)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareProjectReferences" en dépend) :
                    Propriété définie : ReferringTargetFrameworkForProjectReferences=.NETFramework,Version=v4.0
                    Utilisation de la tâche "MSBuild" à partir de l'assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Tâche "MSBuild" (IDTâche:6)
@@ -1350,21 +1350,21 @@ windir = C:\WINDOWS
                      Propriété en sortie : _ProjectReferenceTargetFrameworkProperties= (IDTâche:6)
                    Exécution de la tâche "MSBuild" terminée. (IDTâche:6)
                    Propriété définie : _ProjectReferenceTargetFrameworkProperties=
-10:20:03.922     1>Génération de la cible "_GetProjectReferenceTargetFrameworkProperties" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:10)
-10:20:03.922     1>Cible "PrepareProjectReferences : (IdCible:11)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveProjectReferences" en dépend) :
-10:20:03.922     1>Génération de la cible "PrepareProjectReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:11)
+10:21:13.368     1>Génération de la cible "_GetProjectReferenceTargetFrameworkProperties" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:10)
+10:21:13.368     1>Cible "PrepareProjectReferences : (IdCible:11)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveProjectReferences" en dépend) :
+10:21:13.368     1>Génération de la cible "PrepareProjectReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:11)
                    Cible "_RemoveNameMetadataFromProjectReferenceItems" ignorée en raison d'une fausse condition ; ('@(ProjectReference)'!='') a été évaluée comme (''!='').
-10:20:03.923     1>Cible "ResolveProjectReferences : (IdCible:12)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
+10:21:13.369     1>Cible "ResolveProjectReferences : (IdCible:12)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
                    Tâche "MSBuild" ignorée en raison d'une fausse condition ; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' != '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') a été évaluée comme ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' != '10.0' and '' != '').
                    Tâche "MSBuild" ignorée en raison d'une fausse condition ; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and ('$(BuildingInsideVisualStudio)' == 'true' or '$(BuildProjectReferences)' != 'true') and '$(VisualStudioVersion)' == '10.0' and '@(_MSBuildProjectReferenceExistent)' != '') a été évaluée comme ('' == 'true' and '' != '' and ('true' == 'true' or 'true' != 'true') and '15.0' == '10.0' and '' != '').
                    Tâche "MSBuild" ignorée en raison d'une fausse condition ; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingInsideVisualStudio)' != 'true' and '$(BuildProjectReferences)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') a été évaluée comme ('' == 'true' and '' != '' and 'true' != 'true' and 'true' == 'true' and '' != '').
                    Tâche "MSBuild" ignorée en raison d'une fausse condition ; ('%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '$(BuildingProject)' == 'true' and '@(_MSBuildProjectReferenceExistent)' != '') a été évaluée comme ('' == 'true' and '' != '' and 'true' == 'true' and '' != '').
                    Tâche "Warning" ignorée en raison d'une fausse condition ; ('@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceNonexistent)' != '') a été évaluée comme ('' != '' and '' != '').
-10:20:03.936     1>Génération de la cible "ResolveProjectReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:12)
+10:21:13.369     1>Génération de la cible "ResolveProjectReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:12)
                    Cible "FindInvalidProjectReferences" ignorée en raison d'une fausse condition ; ('$(FindInvalidProjectReferences)' == 'true') a été évaluée comme ('' == 'true').
                    Cible "ResolveNativeReferences" ignorée en raison d'une fausse condition ; ('@(NativeReference)'!='') a été évaluée comme (''!='').
                    Cible "_PrepareForReferenceResolution" ignorée. Elle a été générée.
-10:20:03.937     1>Cible "GetFrameworkPaths : (IdCible:13)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
+10:21:13.369     1>Cible "GetFrameworkPaths : (IdCible:13)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.NETFramework.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
                    Élément(s) ajouté(s) : _TargetFramework40DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
                    Élément(s) ajouté(s) : _TargetFramework35DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.5
                    Élément(s) ajouté(s) : _TargetFramework30DirectoryItem=C:\WINDOWS\Microsoft.NET\Framework\v3.0
@@ -1374,16 +1374,16 @@ windir = C:\WINDOWS
                    Propriété définie : TargetFrameworkDirectory=C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319
                    Propriété définie : TargetFrameworkSDKDirectory=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
                    Élément(s) ajouté(s) : _TargetFrameworkSDKDirectoryItem=C:\Program Files (x86)\Microsoft SDKs\Windows\v10.0A\
-10:20:03.937     1>Génération de la cible "GetFrameworkPaths" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:13)
+10:21:13.369     1>Génération de la cible "GetFrameworkPaths" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:13)
                    Cible "GetWinFXPath" ignorée en raison d'une fausse condition ; (('@(Page)' != '' or '@(ApplicationDefinition)' != '' or '@(Resource)' != '') and ('$(GetWinFXNativePath)' != '' or '$(GetWinFXWoWPath)' != '' )) a été évaluée comme (('' != '' or '' != '' or '' != '') and ('' != '' or '' != '' )).
-10:20:03.937     1>Cible "GetReferenceAssemblyPaths : (IdCible:14)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
+10:21:13.369     1>Cible "GetReferenceAssemblyPaths : (IdCible:14)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
                    Propriété définie : TargetFrameworkDirectory=
                    Tâche "GetReferenceAssemblyPaths" ignorée en raison d'une fausse condition ; ('$(TargetFrameworkMoniker)' != '' and ('$(_TargetFrameworkDirectories)' == '' or '$(_FullFrameworkReferenceAssemblyPaths)' == '')) a été évaluée comme ('' != '' and ('C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '' or 'C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0' == '')).
                    Propriété définie : TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;
                    Propriété définie : TargetFrameworkDirectory=C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0;;;C:\Program Files (x86)\Windows Kits\10\References
                    Propriété définie : RemoveAssemblyFoldersIfNoTargetFramework=true
-10:20:03.937     1>Génération de la cible "GetReferenceAssemblyPaths" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:14)
-10:20:03.937     1>Cible "SetBuildDefaultEnvironmentVariables : (IdCible:15)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
+10:21:13.369     1>Génération de la cible "GetReferenceAssemblyPaths" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:14)
+10:21:13.370     1>Cible "SetBuildDefaultEnvironmentVariables : (IdCible:15)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Current.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
                    Utilisation de la tâche "SetEnv" à partir de l'assembly "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
                    Tâche "SetEnv" (IDTâche:7)
                      Paramètre de tâche :Name=PATH (IDTâche:7)
@@ -1413,9 +1413,9 @@ windir = C:\WINDOWS
                      INCLUDE=E:\C++\Projet_Moteur_V2\DXUT\Optional;E:\C++\Projet_Moteur_V2\DXUT\Core;E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\include;;E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\atlmfc\include;;E:\Programs\VS17\VC\Auxiliary\VS\include;;C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\ucrt;;;E:\Programs\VS17\VC\Auxiliary\VS\UnitTest\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\winrt;Include\um; (IDTâche:10)
                      Propriété en sortie : INCLUDE=E:\C++\Projet_Moteur_V2\DXUT\Optional%3bE:\C++\Projet_Moteur_V2\DXUT\Core%3bE:\Programs\VS17\VC\Tools\MSVC\14.10.25017\include%3b%3bE:\Programs\VS17\VC\Tools\MSVC\14.10.25017\atlmfc\include%3b%3bE:\Programs\VS17\VC\Auxiliary\VS\include%3b%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.15063.0\ucrt%3b%3b%3bE:\Programs\VS17\VC\Auxiliary\VS\UnitTest\include%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.15063.0\um%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.15063.0\shared%3bC:\Program Files %28x86%29\Windows Kits\10\Include\10.0.15063.0\winrt%3bInclude\um%3b (IDTâche:10)
                    Exécution de la tâche "SetEnv" terminée. (IDTâche:10)
-10:20:03.942     1>Génération de la cible "SetBuildDefaultEnvironmentVariables" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:15)
+10:21:13.370     1>Génération de la cible "SetBuildDefaultEnvironmentVariables" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:15)
                    Cible "SetUserMacroEnvironmentVariables" ignorée en raison d'une fausse condition ; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') a été évaluée comme ('' != '' and '' != 'true').
-10:20:03.942     1>Cible "GetResolvedWinMD : (IdCible:16)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
+10:21:13.370     1>Cible "GetResolvedWinMD : (IdCible:16)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
                    Élément(s) ajouté(s) : 
                        Link=
                            tmp
@@ -1510,8 +1510,8 @@ windir = C:\WINDOWS
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
                                    Version=
-10:20:03.943     1>Génération de la cible "GetResolvedWinMD" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:16)
-10:20:03.943     1>Cible "PlatformPrepareForBuild : (IdCible:17)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
+10:21:13.371     1>Génération de la cible "GetResolvedWinMD" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:16)
+10:21:13.371     1>Cible "PlatformPrepareForBuild : (IdCible:17)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.Cpp.Platform.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
                    Propriété définie : ConfigurationPlatformExists=true
                    Propriété définie : _CurrentPlatformToolsetShortName=v141
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('$(_Error64bitToolsNotInstalled)' == 'true') a été évaluée comme ('' == 'true').
@@ -1519,27 +1519,27 @@ windir = C:\WINDOWS
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v100') a été évaluée comme (''!='true' and 'true' != 'true' and 'v141' == 'v100').
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' == 'v90') a été évaluée comme (''!='true' and 'true' != 'true' and 'v141' == 'v90').
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('$(DesignTimeBuild)'!='true' and '$(_ToolsetFound)' != 'true' and '$(PlatformToolset)' != 'v90' and '$(PlatformToolset)' != 'v100' and '$(PlatformToolset)' != 'v110') a été évaluée comme (''!='true' and 'true' != 'true' and 'v141' != 'v90' and 'v141' != 'v100' and 'v141' != 'v110').
-10:20:03.943     1>Génération de la cible "PlatformPrepareForBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:17)
-10:20:03.943     1>Cible "Desktop_PlatformPrepareForBuild : (IdCible:18)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141\Toolset.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
+10:21:13.371     1>Génération de la cible "PlatformPrepareForBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:17)
+10:21:13.371     1>Cible "Desktop_PlatformPrepareForBuild : (IdCible:18)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Platforms\Win32\PlatformToolsets\v141\Toolset.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ($(MissingSDKProps) == 'true') a été évaluée comme ( == 'true').
-10:20:03.944     1>Génération de la cible "Desktop_PlatformPrepareForBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:18)
+10:21:13.371     1>Génération de la cible "Desktop_PlatformPrepareForBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:18)
                    Cible "GetFrameworkPaths" ignorée. Elle a été générée.
                    Cible "GetReferenceAssemblyPaths" ignorée. Elle a été générée.
                    Cible "AssignLinkMetadata" ignorée en raison d'une fausse condition ; ( '$(SynthesizeLinkMetadata)' == 'true' ) a été évaluée comme ( '' == 'true' ).
-10:20:03.944     1>Cible "SetCABuildNativeEnvironmentVariables : (IdCible:19)" dans le fichier "E:\Programs\VS17\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
+10:21:13.371     1>Cible "SetCABuildNativeEnvironmentVariables : (IdCible:19)" dans le fichier "E:\Programs\VS17\MSBuild\Microsoft\VisualStudio\v15.0\CodeAnalysis\Microsoft.CodeAnalysis.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
                    Initialisation de la fabrique de tâches "CodeTaskFactory" à partir de l'assembly "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Build.Tasks.Core.dll".
                    Utilisation de "SetEnvironmentVariable" à partir de la fabrique de tâches "Code Task Factory".
                    Tâche "SetEnvironmentVariable" (IDTâche:11)
                      Paramètre de tâche :EnvValue=E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\atlmfc\include;E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\include;C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\um;C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\shared;C:\Program Files (x86)\Windows Kits\10\Include\10.0.15063.0\winrt;Include\um; (IDTâche:11)
                      Paramètre de tâche :EnvKey=CAExcludePath (IDTâche:11)
                    Exécution de la tâche "SetEnvironmentVariable" terminée. (IDTâche:11)
-10:20:04.117     1>Génération de la cible "SetCABuildNativeEnvironmentVariables" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:19)
-10:20:04.117     1>Cible "EnsureNuGetPackageBuildImports : (IdCible:20)" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
+10:21:13.377     1>Génération de la cible "SetCABuildNativeEnvironmentVariables" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:19)
+10:21:13.377     1>Cible "EnsureNuGetPackageBuildImports : (IdCible:20)" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForBuild" en dépend) :
                    Propriété définie : ErrorText=Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.
                    Tâche "Error" ignorée en raison d'une fausse condition ; (!Exists('..\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.props')) a été évaluée comme (!Exists('..\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.props')).
                    Tâche "Error" ignorée en raison d'une fausse condition ; (!Exists('..\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.targets')) a été évaluée comme (!Exists('..\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.targets')).
-10:20:04.117     1>Génération de la cible "EnsureNuGetPackageBuildImports" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:20)
-10:20:04.117     1>Cible "PrepareForBuild : (IdCible:21)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
+10:21:13.377     1>Génération de la cible "EnsureNuGetPackageBuildImports" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:20)
+10:21:13.377     1>Cible "PrepareForBuild : (IdCible:21)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
                    Propriété définie : TargetDir=E:\C++\voidProject\Debug\
                    Propriété définie : LocalDebuggerCommand=E:\C++\voidProject\Debug\void-Projec.exe
                    Propriété définie : BuildProjectReferences=false
@@ -1568,23 +1568,23 @@ windir = C:\WINDOWS
                              E:\C++\voidProject\Debug\
                              void-Projec.dir\Debug\Projet_Moteur_V2.tlog\ (IDTâche:13)
                    Exécution de la tâche "MakeDir" terminée. (IDTâche:13)
-10:20:04.120     1>Génération de la cible "PrepareForBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:21)
+10:21:13.383     1>Génération de la cible "PrepareForBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:21)
                    Cible "_PrepareForReferenceResolution" ignorée. Elle a été générée.
                    Cible "ComputeCrtSDKReference" ignorée en raison d'une fausse condition ; ('@(ClCompile)'!='' and '$(WindowsAppContainer)'=='true' and '$(UseCrtSDKReference)' != 'false') a été évaluée comme ('..\main.cpp'!='' and 'false'=='true' and '' != 'false').
-10:20:04.120     1>Cible "GetInstalledSDKLocations : (IdCible:22)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveSDKReferences" en dépend) :
+10:21:13.383     1>Cible "GetInstalledSDKLocations : (IdCible:22)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveSDKReferences" en dépend) :
                    Tâche "GetInstalledSDKLocations" ignorée en raison d'une fausse condition ; ('@(SDKReference)' != '') a été évaluée comme ('' != '').
                    Tâche "GetInstalledSDKLocations" ignorée en raison d'une fausse condition ; ('@(SDKReference)' != '' and '$(SupportWindows81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindows81)' != '' and '$(TargetPlatformVersionWindows81)' != '') a été évaluée comme ('' != '' and '' == 'true' and '' != '' and '' != '').
                    Tâche "GetInstalledSDKLocations" ignorée en raison d'une fausse condition ; ('@(SDKReference)' != '' and '$(SupportWindowsPhone81SDKs)' == 'true' and '$(TargetPlatformIdentifierWindowsPhone81)' != '' and '$(TargetPlatformVersionWindowsPhone81)' != '') a été évaluée comme ('' != '' and '' == 'true' and '' != '' and '' != '').
-10:20:04.120     1>Génération de la cible "GetInstalledSDKLocations" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:22)
-10:20:04.120     1>Cible "ResolveSDKReferences : (IdCible:23)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
+10:21:13.383     1>Génération de la cible "GetInstalledSDKLocations" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:22)
+10:21:13.383     1>Cible "ResolveSDKReferences : (IdCible:23)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
                    Tâche "ResolveSDKReference" ignorée en raison d'une fausse condition ; ('@(SDKReference)'!='') a été évaluée comme (''!='').
-10:20:04.120     1>Génération de la cible "ResolveSDKReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:23)
+10:21:13.383     1>Génération de la cible "ResolveSDKReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:23)
                    Cible "ResolveSDKReferences" ignorée. Elle a été générée.
-10:20:04.120     1>Cible "ExpandSDKReferences : (IdCible:24)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
+10:21:13.383     1>Cible "ExpandSDKReferences : (IdCible:24)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveAssemblyReferences" en dépend) :
                    Tâche "GetSDKReferenceFiles" ignorée en raison d'une fausse condition ; ('@(ResolvedSDKReference)'!='') a été évaluée comme (''!='').
-10:20:04.120     1>Génération de la cible "ExpandSDKReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:24)
+10:21:13.384     1>Génération de la cible "ExpandSDKReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:24)
                    Cible "ResolveNuGetPackageAssets" ignorée en raison d'une fausse condition ; ('$(ResolveNuGetPackages)' == 'true' and exists('$(ProjectLockFile)')) a été évaluée comme ('true' == 'true' and exists('obj\project.assets.json')).
-10:20:04.120     1>Cible "ResolveAssemblyReferences : (IdCible:25)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
+10:21:13.384     1>Cible "ResolveAssemblyReferences : (IdCible:25)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
                    Élément(s) ajouté(s) : 
                        _ReferenceInstalledAssemblyDirectory=
                            C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0
@@ -1593,19 +1593,19 @@ windir = C:\WINDOWS
                    Propriété définie : ResolveAssemblyReferencesSilent=false
                    Propriété définie : ResolveAssemblyWarnOrErrorOnTargetArchitectureMismatch=Warning
                    Tâche "ResolveAssemblyReference" ignorée en raison d'une fausse condition ; ('@(Reference)'!='' or '@(_ResolvedProjectReferencePaths)'!='' or '@(_ExplicitReference)' != '') a été évaluée comme (''!='' or ''!='' or '' != '').
-10:20:04.121     1>Génération de la cible "ResolveAssemblyReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:25)
+10:21:13.384     1>Génération de la cible "ResolveAssemblyReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:25)
                    Cible "GenerateBindingRedirects" ignorée en raison d'une fausse condition ; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true') a été évaluée comme ('' == 'true' and 'true' == 'true').
                    Cible "GenerateBindingRedirectsUpdateAppConfig" ignorée en raison d'une fausse condition ; ('$(AutoGenerateBindingRedirects)' == 'true' and '$(GenerateBindingRedirectsOutputType)' == 'true' and Exists('$(_GenerateBindingRedirectsIntermediateAppConfig)')) a été évaluée comme ('' == 'true' and 'true' == 'true' and Exists('void-Projec.dir\Debug\Projet_Moteur_V2.vcxproj.void-Projec.exe.config')).
                    Cible "ResolveComReferences" ignorée en raison d'une fausse condition ; ('@(COMReference)'!='' or '@(COMFileReference)'!='') a été évaluée comme (''!='' or ''!='').
-10:20:04.121     1>Cible "AfterResolveReferences : (IdCible:26)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
-10:20:04.121     1>Génération de la cible "AfterResolveReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:26)
+10:21:13.384     1>Cible "AfterResolveReferences : (IdCible:26)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResolveReferences" en dépend) :
+10:21:13.384     1>Génération de la cible "AfterResolveReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:26)
                    Cible "ImplicitlyExpandDesignTimeFacades" ignorée en raison d'une fausse condition ; ('$(ImplicitlyExpandDesignTimeFacades)' == 'true') a été évaluée comme ('' == 'true').
                    Cible "ResolveTestReferences" ignorée en raison d'une fausse condition ; ('@(Shadow)'!='') a été évaluée comme (''!='').
-10:20:04.121     1>Cible "ResolveReferences : (IdCible:27)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
-10:20:04.121     1>Génération de la cible "ResolveReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:27)
+10:21:13.384     1>Cible "ResolveReferences : (IdCible:27)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
+10:21:13.384     1>Génération de la cible "ResolveReferences" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:27)
                    Cible "PrepareForBuild" ignorée. Elle a été générée.
                    Cible "PrepareForBuild" ignorée. Elle a été générée.
-10:20:04.121     1>Cible "InitializeBuildStatus : (IdCible:28)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
+10:21:13.384     1>Cible "InitializeBuildStatus : (IdCible:28)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
                    Utilisation de la tâche "ReadLinesFromFile" à partir de l'assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Tâche "ReadLinesFromFile" (IDTâche:14)
                      Paramètre de tâche :File=void-Projec.dir\Debug\Projet_Moteur_V2.tlog\Projet_Moteur_V2.lastbuildstate (IDTâche:14)
@@ -1631,71 +1631,71 @@ windir = C:\WINDOWS
                      Paramètre de tâche :Files=void-Projec.dir\Debug\Projet_Moteur_V2.tlog\unsuccessfulbuild (IDTâche:16)
                      Création de "void-Projec.dir\Debug\Projet_Moteur_V2.tlog\unsuccessfulbuild", car "AlwaysCreate" a été spécifié. (IDTâche:16)
                    Exécution de la tâche "Touch" terminée. (IDTâche:16)
-10:20:04.124     1>Génération de la cible "InitializeBuildStatus" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:28)
+10:21:13.386     1>Génération de la cible "InitializeBuildStatus" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:28)
                    Cible "PrepareProjectReferences" ignorée. Elle a été générée.
-10:20:04.125     1>Cible "BuildGenerateSourcesTraverse : (IdCible:29)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildGenerateSources" en dépend) :
+10:21:13.386     1>Cible "BuildGenerateSourcesTraverse : (IdCible:29)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildGenerateSources" en dépend) :
                    Tâche "MSBuild" ignorée en raison d'une fausse condition ; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') a été évaluée comme ('' == 'true' and '' != '' and '' != '' and '' == 'true').
-10:20:04.125     1>Génération de la cible "BuildGenerateSourcesTraverse" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:29)
+10:21:13.386     1>Génération de la cible "BuildGenerateSourcesTraverse" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:29)
                    Cible "PrepareForBuild" ignorée. Elle a été générée.
                    Cible "ResolveReferences" ignorée. Elle a été générée.
-10:20:04.125     1>Cible "BeforeBuildGenerateSources : (IdCible:30)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
-10:20:04.125     1>Génération de la cible "BeforeBuildGenerateSources" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:30)
-10:20:04.125     1>Cible "PreBuildEvent : (IdCible:31)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
+10:21:13.387     1>Cible "BeforeBuildGenerateSources : (IdCible:30)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
+10:21:13.387     1>Génération de la cible "BeforeBuildGenerateSources" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:30)
+10:21:13.387     1>Cible "PreBuildEvent : (IdCible:31)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
                    Tâche "Message" ignorée en raison d'une fausse condition ; ('%(PreBuildEvent.Message)' != '' and '%(PreBuildEvent.Command)' != '') a été évaluée comme ('' != '' and '' != '').
                    Tâche "Exec" ignorée en raison d'une fausse condition ; ('%(PreBuildEvent.Command)' != '') a été évaluée comme ('' != '').
-10:20:04.125     1>Génération de la cible "PreBuildEvent" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:31)
+10:21:13.387     1>Génération de la cible "PreBuildEvent" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:31)
                    Cible "CustomBuild" ignorée en raison d'une fausse condition ; ('@(CustomBuild)' != '') a été évaluée comme ('' != '').
                    Cible "FxExport" ignorée en raison d'une fausse condition ; ('@(FxCompile)' != '') a été évaluée comme ('' != '').
                    Cible "FxCompile" ignorée en raison d'une fausse condition ; ('@(FxCompile)' != '') a été évaluée comme ('' != '').
                    Cible "Xsd" ignorée en raison d'une fausse condition ; ('@(Xsd)' != '') a été évaluée comme ('' != '').
-10:20:04.125     1>Cible "_Xsd : (IdCible:32)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
-10:20:04.125     1>Génération de la cible "_Xsd" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:32)
-10:20:04.125     1>Cible "MakeDirsForMidl : (IdCible:33)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Midl" en dépend) :
+10:21:13.387     1>Cible "_Xsd : (IdCible:32)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
+10:21:13.387     1>Génération de la cible "_Xsd" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:32)
+10:21:13.387     1>Cible "MakeDirsForMidl : (IdCible:33)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Midl" en dépend) :
                    Propriété définie : Midl_OutputDir=
                    Tâche "Makedir" (IDTâche:17)
                    Exécution de la tâche "Makedir" terminée. (IDTâche:17)
-10:20:04.125     1>Génération de la cible "MakeDirsForMidl" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:33)
+10:21:13.387     1>Génération de la cible "MakeDirsForMidl" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:33)
                    Cible "Midl" ignorée en raison d'une fausse condition ; ('@(Midl)' != '') a été évaluée comme ('' != '').
                    Cible "CustomBuild" ignorée en raison d'une fausse condition ; ('@(CustomBuild)' != '') a été évaluée comme ('' != '').
                    Cible "FxExport" ignorée en raison d'une fausse condition ; ('@(FxCompile)' != '') a été évaluée comme ('' != '').
                    Cible "FxCompile" ignorée en raison d'une fausse condition ; ('@(FxCompile)' != '') a été évaluée comme ('' != '').
-10:20:04.125     1>Cible "ComputeMIDLGeneratedCompileInputs : (IdCible:34)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Midl" en dépend) :
+10:21:13.387     1>Cible "ComputeMIDLGeneratedCompileInputs : (IdCible:34)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Midl" en dépend) :
                    Propriété définie : Midl_OutputDir=
-10:20:04.125     1>Génération de la cible "ComputeMIDLGeneratedCompileInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:34)
-10:20:04.125     1>Cible "AfterMidl : (IdCible:35)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Midl" en dépend) :
-10:20:04.125     1>Génération de la cible "AfterMidl" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:35)
-10:20:04.125     1>Cible "_Midl : (IdCible:36)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
-10:20:04.125     1>Génération de la cible "_Midl" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:36)
-10:20:04.125     1>Cible "AfterBuildGenerateSources : (IdCible:37)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
-10:20:04.125     1>Génération de la cible "AfterBuildGenerateSources" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:37)
-10:20:04.125     1>Cible "AfterBuildGenerateSourcesEvent : (IdCible:38)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
-10:20:04.125     1>Génération de la cible "AfterBuildGenerateSourcesEvent" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:38)
-10:20:04.125     1>Cible "_BuildGenerateSourcesAction : (IdCible:39)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildGenerateSources" en dépend) :
-10:20:04.125     1>Génération de la cible "_BuildGenerateSourcesAction" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:39)
-10:20:04.125     1>Cible "BuildGenerateSources : (IdCible:40)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
-10:20:04.125     1>Génération de la cible "BuildGenerateSources" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:40)
+10:21:13.387     1>Génération de la cible "ComputeMIDLGeneratedCompileInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:34)
+10:21:13.387     1>Cible "AfterMidl : (IdCible:35)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Midl" en dépend) :
+10:21:13.387     1>Génération de la cible "AfterMidl" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:35)
+10:21:13.387     1>Cible "_Midl : (IdCible:36)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
+10:21:13.387     1>Génération de la cible "_Midl" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:36)
+10:21:13.387     1>Cible "AfterBuildGenerateSources : (IdCible:37)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.BuildSteps.Targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
+10:21:13.387     1>Génération de la cible "AfterBuildGenerateSources" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:37)
+10:21:13.387     1>Cible "AfterBuildGenerateSourcesEvent : (IdCible:38)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildGenerateSourcesAction" en dépend) :
+10:21:13.387     1>Génération de la cible "AfterBuildGenerateSourcesEvent" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:38)
+10:21:13.387     1>Cible "_BuildGenerateSourcesAction : (IdCible:39)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildGenerateSources" en dépend) :
+10:21:13.387     1>Génération de la cible "_BuildGenerateSourcesAction" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:39)
+10:21:13.387     1>Cible "BuildGenerateSources : (IdCible:40)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
+10:21:13.387     1>Génération de la cible "BuildGenerateSources" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:40)
                    Cible "PrepareProjectReferences" ignorée. Elle a été générée.
-10:20:04.125     1>Cible "BuildCompileTraverse : (IdCible:41)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildCompile" en dépend) :
+10:21:13.387     1>Cible "BuildCompileTraverse : (IdCible:41)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildCompile" en dépend) :
                    Tâche "MSBuild" ignorée en raison d'une fausse condition ; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') a été évaluée comme ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-10:20:04.125     1>Génération de la cible "BuildCompileTraverse" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:41)
+10:21:13.387     1>Génération de la cible "BuildCompileTraverse" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:41)
                    Cible "PrepareForBuild" ignorée. Elle a été générée.
                    Cible "ResolveReferences" ignorée. Elle a été générée.
-10:20:04.125     1>Cible "BeforeClCompile : (IdCible:42)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
-10:20:04.125     1>Génération de la cible "BeforeClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:42)
+10:21:13.387     1>Cible "BeforeClCompile : (IdCible:42)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
+10:21:13.387     1>Génération de la cible "BeforeClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:42)
                    Cible "ComputeMIDLGeneratedCompileInputs" ignorée. Elle a été générée.
-10:20:04.125     1>Cible "ComputeCLInputPDBName : (IdCible:43)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
-10:20:04.125     1>Génération de la cible "ComputeCLInputPDBName" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:43)
+10:21:13.387     1>Cible "ComputeCLInputPDBName : (IdCible:43)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
+10:21:13.387     1>Génération de la cible "ComputeCLInputPDBName" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:43)
                    Cible "ResolveReferences" ignorée. Elle a été générée.
-10:20:04.125     1>Cible "ComputeReferenceCLInput : (IdCible:44)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
+10:21:13.387     1>Cible "ComputeReferenceCLInput : (IdCible:44)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
                    Tâche "WriteLinesToFile" ignorée en raison d'une fausse condition ; (('@(_ReferenceCopyLocalPaths)'!='') and '$(DesignTimeBuild)' != 'true') a été évaluée comme ((''!='') and '' != 'true').
                    Tâche "Message" ignorée en raison d'une fausse condition ; ('$(_REFERENCE_DEBUG)'=='true') a été évaluée comme (''=='true').
-10:20:04.126     1>Génération de la cible "ComputeReferenceCLInput" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:44)
-10:20:04.126     1>Cible "WarnCompileDuplicatedFilename : (IdCible:45)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
+10:21:13.387     1>Génération de la cible "ComputeReferenceCLInput" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:44)
+10:21:13.387     1>Cible "WarnCompileDuplicatedFilename : (IdCible:45)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('%(ClCompile.ExcludedFromBuild)' != 'true' and '%(Filename)%(Extension)' != '@(ClCompile->'%(Filename)%(Extension)')' and '%(ObjectFileName)' == '@(ClCompile->Metadata(ObjectFileName)->Distinct())') a été évaluée comme ('' != 'true' and 'main.cpp' != 'main.cpp' and 'void-Projec.dir\Debug\' == 'void-Projec.dir\Debug\').
-10:20:04.126     1>Génération de la cible "WarnCompileDuplicatedFilename" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:45)
-10:20:04.126     1>Cible "FixupCLCompileOptions : (IdCible:46)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
-10:20:04.126     1>Génération de la cible "FixupCLCompileOptions" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:46)
-10:20:04.127     1>Cible "MakeDirsForCl : (IdCible:47)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
+10:21:13.388     1>Génération de la cible "WarnCompileDuplicatedFilename" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:45)
+10:21:13.388     1>Cible "FixupCLCompileOptions : (IdCible:46)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
+10:21:13.388     1>Génération de la cible "FixupCLCompileOptions" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:46)
+10:21:13.388     1>Cible "MakeDirsForCl : (IdCible:47)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
                    Élément(s) ajouté(s) : ClDirsToMake=E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
                    Élément(s) ajouté(s) : ClDirsToMake=E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
                    Élément(s) ajouté(s) : ClDirsToMake=E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
@@ -1714,25 +1714,25 @@ windir = C:\WINDOWS
                            E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
                            E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
                            E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
-10:20:04.127     1>Génération de la cible "MakeDirsForCl" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:47)
+10:21:13.388     1>Génération de la cible "MakeDirsForCl" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:47)
                    Cible "PrepareForBuild" ignorée. Elle a été générée.
                    Cible "SetBuildDefaultEnvironmentVariables" ignorée. Elle a été générée.
                    Cible "SetUserMacroEnvironmentVariables" ignorée en raison d'une fausse condition ; ('@(BuildMacro)' != '' and '$(DesignTimeBuild)' != 'true') a été évaluée comme ('' != '' and '' != 'true').
-10:20:04.127     1>Cible "_SelectedFiles : (IdCible:48)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "SelectClCompile" en dépend) :
-10:20:04.127     1>Génération de la cible "_SelectedFiles" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:48)
+10:21:13.388     1>Cible "_SelectedFiles : (IdCible:48)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "SelectClCompile" en dépend) :
+10:21:13.388     1>Génération de la cible "_SelectedFiles" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:48)
                    Cible "ComputeMIDLGeneratedCompileInputs" ignorée. Elle a été générée.
                    Cible "ComputeCLInputPDBName" ignorée. Elle a été générée.
                    Cible "ComputeReferenceCLInput" ignorée. Elle a été générée.
                    Cible "WarnCompileDuplicatedFilename" ignorée. Elle a été générée.
                    Cible "FixupCLCompileOptions" ignorée. Elle a été générée.
                    Cible "_SelectedFiles" ignorée. Elle a été générée.
-10:20:04.127     1>Cible "SelectCustomBuild : (IdCible:49)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "SelectClCompile" en dépend) :
-10:20:04.127     1>Génération de la cible "SelectCustomBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:49)
-10:20:04.127     1>Cible "SelectClCompile : (IdCible:50)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ClCompile" en dépend) :
-10:20:04.127     1>Génération de la cible "SelectClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:50)
+10:21:13.388     1>Cible "SelectCustomBuild : (IdCible:49)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "SelectClCompile" en dépend) :
+10:21:13.388     1>Génération de la cible "SelectCustomBuild" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:49)
+10:21:13.388     1>Cible "SelectClCompile : (IdCible:50)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ClCompile" en dépend) :
+10:21:13.388     1>Génération de la cible "SelectClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:50)
                    Cible "GenerateTargetFrameworkMonikerAttribute" ignorée en raison d'une fausse condition ; ('$(GenerateTargetFrameworkAttribute)' == 'true') a été évaluée comme ('false' == 'true').
                    Cible "ManagedIncrementalBuildPreProcessDependencyGraph" ignorée en raison d'une fausse condition ; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') a été évaluée comme ('..\main.cpp' != '' and 'false' == 'True').
-10:20:04.127     1>Cible "ClCompile : (IdCible:51)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
+10:21:13.388     1>Cible "ClCompile : (IdCible:51)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
                    Propriété définie : CLToolArchitecture=Native32Bit
                    Propriété définie : CLDeleteOutputOnExecute=true
                    Tâche "Delete" ignorée en raison d'une fausse condition ; ('%(ClCompile.DebugInformationFormat)' != '' and '%(ClCompile.DebugInformationFormat)' != 'None' and '%(ClCompile.DebugInformationFormat)' != 'OldStyle' and '%(ClCompile.ProgramDataBaseFileName)' != '' and !Exists(%(ClCompile.ProgramDataBaseFileName))) a été évaluée comme ('ProgramDatabase' != '' and 'ProgramDatabase' != 'None' and 'ProgramDatabase' != 'OldStyle' and 'void-Projec.dir\Debug\vc141.pdb' != '' and !Exists(void-Projec.dir\Debug\vc141.pdb)).
@@ -1890,28 +1890,28 @@ windir = C:\WINDOWS
                      	void-Projec.dir\Debug\Projet_Moteur_V2.tlog\CL.read.1.tlog (IDTâche:19)
                      Sorties pour E:\C++\PROJET_MOTEUR_V2\MAIN.CPP : (IDTâche:19)
                      	E:\C++\PROJET_MOTEUR_V2\PROJET_MOTEUR_V2\VOID-PROJEC.DIR\DEBUG\MAIN.OBJ (IDTâche:19)
-                     ..\main.cpp sera compilé, car E:\C++\Projet_Moteur_V2\main.cpp a été modifié à 02/06/2017 10:20:02. (IDTâche:19)
+                     ..\main.cpp sera compilé, car E:\C++\Projet_Moteur_V2\main.cpp a été modifié à 02/06/2017 10:21:13. (IDTâche:19)
                      Sorties pour E:\C++\PROJET_MOTEUR_V2\MAIN.CPP : (IDTâche:19)
                      	E:\C++\PROJET_MOTEUR_V2\PROJET_MOTEUR_V2\VOID-PROJEC.DIR\DEBUG\MAIN.OBJ (IDTâche:19)
                      Journaux de suivi d'écriture : (IDTâche:19)
                      	void-Projec.dir\Debug\Projet_Moteur_V2.tlog\CL.write.1.tlog (IDTâche:19)
                      Variables d'environnement passées à l'outil : (IDTâche:19)
-                       VS_UNICODE_OUTPUT=1636 (IDTâche:19)
+                       VS_UNICODE_OUTPUT=1712 (IDTâche:19)
                      E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe /c /IE:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/include/ /Zi /nologo /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D HAS_DIRECTXTK /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D UNICODE /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"void-Projec.dir\Debug\\" /Fd"void-Projec.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp (IDTâche:19)
                      Commande de suivi : (IDTâche:19)
-                     E:\Programs\VS17\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug\Projet_Moteur_V2.tlog /r E:\C++\PROJET_MOTEUR_V2\MAIN.CPP /b MSBuildConsole_CancelEvent589a0e00406a41fd9691bba9b8bd8e15  /c E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe  /c /IE:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/include/ /Zi /nologo /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D HAS_DIRECTXTK /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D UNICODE /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"void-Projec.dir\Debug\\" /Fd"void-Projec.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp (IDTâche:19)
+                     E:\Programs\VS17\MSBuild\15.0\Bin\Tracker.exe /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug\Projet_Moteur_V2.tlog /r E:\C++\PROJET_MOTEUR_V2\MAIN.CPP /b MSBuildConsole_CancelEventdb12d4c96ad74cfb9f0a1baa3d7fbcb9  /c E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\CL.exe  /c /IE:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/include/ /Zi /nologo /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D HAS_DIRECTXTK /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D UNICODE /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"void-Projec.dir\Debug\\" /Fd"void-Projec.dir\Debug\vc141.pdb" /Gd /TP /analyze- /errorReport:prompt ..\main.cpp (IDTâche:19)
                      main.cpp (IDTâche:19)
                    Exécution de la tâche "CL" terminée. (IDTâche:19)
-10:20:06.453     1>Génération de la cible "ClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:51)
+10:21:14.560     1>Génération de la cible "ClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:51)
                    Cible "ManagedIncrementalBuildPostProcessDependencyGraph" ignorée en raison d'une fausse condition ; ('@(ClCompile)' != '' and '$(EnableManagedIncrementalBuild)' == 'True') a été évaluée comme ('..\main.cpp' != '' and 'false' == 'True').
-10:20:06.453     1>Cible "AfterClCompile : (IdCible:52)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
-10:20:06.453     1>Génération de la cible "AfterClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:52)
-10:20:06.453     1>Cible "_ClCompile : (IdCible:53)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildCompileAction" en dépend) :
-10:20:06.453     1>Génération de la cible "_ClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:53)
+10:21:14.560     1>Cible "AfterClCompile : (IdCible:52)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ClCompile" en dépend) :
+10:21:14.560     1>Génération de la cible "AfterClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:52)
+10:21:14.560     1>Cible "_ClCompile : (IdCible:53)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildCompileAction" en dépend) :
+10:21:14.560     1>Génération de la cible "_ClCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:53)
                    Cible "_ResGen" ignorée en raison d'une fausse condition ; ('@(EmbeddedResource)'!='') a été évaluée comme (''!='').
-10:20:06.453     1>Cible "BeforeResourceCompile : (IdCible:54)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ResourceCompile" en dépend) :
-10:20:06.453     1>Génération de la cible "BeforeResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:54)
-10:20:06.453     1>Cible "MakeDirsForResourceCompile : (IdCible:55)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ResourceCompile" en dépend) :
+10:21:14.560     1>Cible "BeforeResourceCompile : (IdCible:54)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ResourceCompile" en dépend) :
+10:21:14.560     1>Génération de la cible "BeforeResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:54)
+10:21:14.560     1>Cible "MakeDirsForResourceCompile : (IdCible:55)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ResourceCompile" en dépend) :
                    Élément(s) ajouté(s) : RcDirsToMake=E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
                    Élément(s) ajouté(s) : RcDirsToMake=E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
                    Tâche "MakeDir" (IDTâche:20)
@@ -1924,12 +1924,12 @@ windir = C:\WINDOWS
                        RcDirsToMake=
                            E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
                            E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug
-10:20:06.454     1>Génération de la cible "MakeDirsForResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:55)
+10:21:14.561     1>Génération de la cible "MakeDirsForResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:55)
                    Cible "_SelectedFiles" ignorée. Elle a été générée.
                    Cible "SelectCustomBuild" ignorée. Elle a été générée.
-10:20:06.454     1>Cible "SelectResourceCompile : (IdCible:56)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResourceCompile" en dépend) :
-10:20:06.454     1>Génération de la cible "SelectResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:56)
-10:20:06.454     1>Cible "ResourceCompile : (IdCible:57)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ResourceCompile" en dépend) :
+10:21:14.561     1>Cible "SelectResourceCompile : (IdCible:56)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ResourceCompile" en dépend) :
+10:21:14.561     1>Génération de la cible "SelectResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:56)
+10:21:14.561     1>Cible "ResourceCompile : (IdCible:57)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ResourceCompile" en dépend) :
                    Propriété définie : RCToolArchitecture=Native32Bit
                    Utilisation de la tâche "RC" à partir de l'assembly "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
                    Tâche "RC" (IDTâche:21)
@@ -1948,34 +1948,34 @@ windir = C:\WINDOWS
                      Paramètre de tâche :MinimalRebuildFromTracking=True (IDTâche:21)
                      Paramètre de tâche :ToolArchitecture=Native32Bit (IDTâche:21)
                      Paramètre de tâche :TrackFileAccess=True (IDTâche:21)
-                     Journaux de suivi d'écriture : (IDTâche:21)
-                     	void-Projec.dir\Debug\Projet_Moteur_V2.tlog\rc.write.1.tlog (IDTâche:21)
-                     Journaux de suivi de lecture : (IDTâche:21)
-                     	void-Projec.dir\Debug\Projet_Moteur_V2.tlog\rc.read.1.tlog (IDTâche:21)
+                     Utilisation de la table des dépendances de sortie mise en cache générée à partir de : (IDTâche:21)
+                     	E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug\Projet_Moteur_V2.tlog\rc.write.1.tlog (IDTâche:21)
+                     Utilisation de la table des dépendances d'entrée mise en cache générée à partir de : (IDTâche:21)
+                     	E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug\Projet_Moteur_V2.tlog\rc.read.1.tlog (IDTâche:21)
                      Sorties pour E:\C++\PROJET_MOTEUR_V2\PROJET_MOTEUR_V2\COLLISION.RC : (IDTâche:21)
                      	E:\C++\PROJET_MOTEUR_V2\PROJET_MOTEUR_V2\VOID-PROJEC.DIR\DEBUG\COLLISION.RES (IDTâche:21)
                      Toutes les sorties sont à jour. (IDTâche:21)
                    Exécution de la tâche "RC" terminée. (IDTâche:21)
-10:20:06.494     1>Génération de la cible "ResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:57)
-10:20:06.494     1>Cible "AfterResourceCompile : (IdCible:58)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ResourceCompile" en dépend) :
-10:20:06.494     1>Génération de la cible "AfterResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:58)
-10:20:06.494     1>Cible "_ResourceCompile : (IdCible:59)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildCompileAction" en dépend) :
-10:20:06.494     1>Génération de la cible "_ResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:59)
+10:21:14.565     1>Génération de la cible "ResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:57)
+10:21:14.565     1>Cible "AfterResourceCompile : (IdCible:58)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_ResourceCompile" en dépend) :
+10:21:14.565     1>Génération de la cible "AfterResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:58)
+10:21:14.565     1>Cible "_ResourceCompile : (IdCible:59)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildCompileAction" en dépend) :
+10:21:14.565     1>Génération de la cible "_ResourceCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:59)
                    Cible "_ImpLib" ignorée en raison d'une fausse condition ; ('$(ImpLibCompiled)' == 'true') a été évaluée comme ('' == 'true').
                    Cible "_Lib" ignorée en raison d'une fausse condition ; ('$(LibCompiled)' == 'true') a été évaluée comme ('' == 'true').
-10:20:06.494     1>Cible "AfterBuildCompileEvent : (IdCible:60)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildCompileAction" en dépend) :
-10:20:06.494     1>Génération de la cible "AfterBuildCompileEvent" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:60)
-10:20:06.494     1>Cible "_BuildCompileAction : (IdCible:61)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildCompile" en dépend) :
-10:20:06.494     1>Génération de la cible "_BuildCompileAction" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:61)
-10:20:06.494     1>Cible "BuildCompile : (IdCible:62)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
-10:20:06.494     1>Génération de la cible "BuildCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:62)
+10:21:14.565     1>Cible "AfterBuildCompileEvent : (IdCible:60)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildCompileAction" en dépend) :
+10:21:14.565     1>Génération de la cible "AfterBuildCompileEvent" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:60)
+10:21:14.565     1>Cible "_BuildCompileAction : (IdCible:61)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildCompile" en dépend) :
+10:21:14.565     1>Génération de la cible "_BuildCompileAction" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:61)
+10:21:14.565     1>Cible "BuildCompile : (IdCible:62)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Build" en dépend) :
+10:21:14.565     1>Génération de la cible "BuildCompile" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:62)
                    Cible "PrepareProjectReferences" ignorée. Elle a été générée.
-10:20:06.494     1>Cible "BuildLinkTraverse : (IdCible:63)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildLink" en dépend) :
+10:21:14.565     1>Cible "BuildLinkTraverse : (IdCible:63)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "BuildLink" en dépend) :
                    Tâche "MSBuild" ignorée en raison d'une fausse condition ; ('$(BuildPassReferences)' == 'true' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != ''  and '%(_MSBuildProjectReferenceExistent.BuildReference)' == 'true') a été évaluée comme ('' == 'true' and '' != '' and '' != ''  and '' == 'true').
-10:20:06.494     1>Génération de la cible "BuildLinkTraverse" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:63)
+10:21:14.565     1>Génération de la cible "BuildLinkTraverse" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:63)
                    Cible "PrepareForBuild" ignorée. Elle a été générée.
                    Cible "ResolveReferences" ignorée. Elle a été générée.
-10:20:06.494     1>Cible "ComputeLegacyManifestEmbedding : (IdCible:64)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.565     1>Cible "ComputeLegacyManifestEmbedding : (IdCible:64)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
                    Élément(s) ajouté(s) : 
                        Manifest=
                            temp
@@ -2005,20 +2005,20 @@ windir = C:\WINDOWS
                                    TrackerLogDirectory=void-Projec.dir\Debug\Projet_Moteur_V2.tlog\
                                    UpdateFileHashes=false
                                    VerboseOutput=true
-10:20:06.494     1>Génération de la cible "ComputeLegacyManifestEmbedding" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:64)
-10:20:06.494     1>Cible "BeforeLink : (IdCible:65)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
-10:20:06.494     1>Génération de la cible "BeforeLink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:65)
-10:20:06.494     1>Cible "directxtk_desktop_2015_BeforeLink : (IdCible:66)" dans le fichier "E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.566     1>Génération de la cible "ComputeLegacyManifestEmbedding" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:64)
+10:21:14.566     1>Cible "BeforeLink : (IdCible:65)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.566     1>Génération de la cible "BeforeLink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:65)
+10:21:14.566     1>Cible "directxtk_desktop_2015_BeforeLink : (IdCible:66)" dans le fichier "E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\directxtk_desktop_2015.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Utilisation de la tâche "CheckRuntimeLibrary" à partir de l'assembly "E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\\private\coapp.NuGetNativeMSBuildTasks.dll".
                    Tâche "CheckRuntimeLibrary" (IDTâche:22)
                      Paramètre de tâche :RuntimeLibrary=MultiThreadedDebugDLL (IDTâche:22)
                      Paramètre de tâche :ExpectedRuntimeLibrary=none (IDTâche:22)
                      Paramètre de tâche :LibraryName=directxtk_desktop_2015 (IDTâche:22)
                    Exécution de la tâche "CheckRuntimeLibrary" terminée. (IDTâche:22)
-10:20:06.520     1>Génération de la cible "directxtk_desktop_2015_BeforeLink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:66)
+10:21:14.566     1>Génération de la cible "directxtk_desktop_2015_BeforeLink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:66)
                    Cible "directxtk_desktop_2015_BeforeLink_Release_and_static" ignorée en raison d'une fausse condition ; (( $(Configuration.ToLower().IndexOf('debug')) == -1 ) And '$(Linkages-directxtk_desktop_2015.ToLower())' == 'static') a été évaluée comme (( 0 == -1 ) And 'dynamic' == 'static').
                    Cible "directxtk_desktop_2015_BeforeLink_Debug_and_static" ignorée en raison d'une fausse condition ; (( $(Configuration.ToLower().IndexOf('debug')) > -1 ) And '$(Linkages-directxtk_desktop_2015.ToLower())' == 'static') a été évaluée comme (( 0 > -1 ) And 'dynamic' == 'static').
-10:20:06.521     1>Cible "ComputeRCOutputs : (IdCible:67)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ComputeRCGeneratedLinkInputs" en dépend) :
+10:21:14.566     1>Cible "ComputeRCOutputs : (IdCible:67)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ComputeRCGeneratedLinkInputs" en dépend) :
                    Élément(s) ajouté(s) : 
                        ResObj=
                            void-Projec.dir\Debug\Collision.res
@@ -2033,8 +2033,8 @@ windir = C:\WINDOWS
                                    ResourceOutputFileName=void-Projec.dir\Debug\%(Filename).res
                                    SuppressStartupBanner=true
                                    TrackerLogDirectory=void-Projec.dir\Debug\Projet_Moteur_V2.tlog\
-10:20:06.521     1>Génération de la cible "ComputeRCOutputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:67)
-10:20:06.521     1>Cible "ComputeRCGeneratedLinkInputs : (IdCible:68)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.566     1>Génération de la cible "ComputeRCOutputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:67)
+10:21:14.566     1>Cible "ComputeRCGeneratedLinkInputs : (IdCible:68)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Élément(s) ajouté(s) : 
                        Link=
                            void-Projec.dir\Debug\Collision.res
@@ -2081,20 +2081,20 @@ windir = C:\WINDOWS
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
                                    Version=
-10:20:06.521     1>Génération de la cible "ComputeRCGeneratedLinkInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:68)
-10:20:06.521     1>Cible "ComputeManifestGeneratedLinkerInputs : (IdCible:69)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
-10:20:06.521     1>Génération de la cible "ComputeManifestGeneratedLinkerInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:69)
-10:20:06.521     1>Cible "ComputeCustomBuildOutput : (IdCible:70)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.566     1>Génération de la cible "ComputeRCGeneratedLinkInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:68)
+10:21:14.566     1>Cible "ComputeManifestGeneratedLinkerInputs : (IdCible:69)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.566     1>Génération de la cible "ComputeManifestGeneratedLinkerInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:69)
+10:21:14.566     1>Cible "ComputeCustomBuildOutput : (IdCible:70)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Tâche "CreateItem" ignorée en raison d'une fausse condition ; ('%(CustomBuildDirsToMake.OutputFileToTool)'!='') a été évaluée comme (''!='').
                    Tâche "MakeDir" (IDTâche:23)
                    Exécution de la tâche "MakeDir" terminée. (IDTâche:23)
-10:20:06.522     1>Génération de la cible "ComputeCustomBuildOutput" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:70)
+10:21:14.566     1>Génération de la cible "ComputeCustomBuildOutput" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:70)
                    Cible "ComputeMIDLGeneratedCompileInputs" ignorée. Elle a été générée.
                    Cible "ComputeCLInputPDBName" ignorée. Elle a été générée.
                    Cible "ComputeReferenceCLInput" ignorée. Elle a été générée.
                    Cible "WarnCompileDuplicatedFilename" ignorée. Elle a été générée.
                    Cible "FixupCLCompileOptions" ignorée. Elle a été générée.
-10:20:06.522     1>Cible "ComputeCLOutputs : (IdCible:71)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ComputeCLGeneratedLinkInputs" en dépend) :
+10:21:14.566     1>Cible "ComputeCLOutputs : (IdCible:71)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "ComputeCLGeneratedLinkInputs" en dépend) :
                    Élément(s) ajouté(s) : 
                        Obj=
                            void-Projec.dir\Debug\main.obj
@@ -2160,8 +2160,8 @@ windir = C:\WINDOWS
                                    WholeProgramOptimization=false
                                    WinRTNoStdLib=false
                                    XMLDocumentationFileName=void-Projec.dir\Debug\
-10:20:06.544     1>Génération de la cible "ComputeCLOutputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:71)
-10:20:06.544     1>Cible "ComputeCLGeneratedLinkInputs : (IdCible:72)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.567     1>Génération de la cible "ComputeCLOutputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:71)
+10:21:14.567     1>Cible "ComputeCLGeneratedLinkInputs : (IdCible:72)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Élément(s) ajouté(s) : 
                        Link=
                            void-Projec.dir\Debug\main.obj
@@ -2208,11 +2208,11 @@ windir = C:\WINDOWS
                                    UACExecutionLevel=AsInvoker
                                    UACUIAccess=false
                                    Version=
-10:20:06.544     1>Génération de la cible "ComputeCLGeneratedLinkInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:72)
-10:20:06.544     1>Cible "ComputeLinkInputsFromProject : (IdCible:73)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
-10:20:06.544     1>Génération de la cible "ComputeLinkInputsFromProject" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:73)
+10:21:14.569     1>Génération de la cible "ComputeCLGeneratedLinkInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:72)
+10:21:14.569     1>Cible "ComputeLinkInputsFromProject : (IdCible:73)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.569     1>Génération de la cible "ComputeLinkInputsFromProject" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:73)
                    Cible "ComputeReferenceLinkInputs" ignorée en raison d'une fausse condition ; (@(ProjectReference) != '') a été évaluée comme ( != '').
-10:20:06.544     1>Cible "ComputeManifestInputsTargets : (IdCible:74)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.569     1>Cible "ComputeManifestInputsTargets : (IdCible:74)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Élément(s) ajouté(s) : 
                        Manifest=
                            temp
@@ -2243,10 +2243,10 @@ windir = C:\WINDOWS
                                    TrackerLogDirectory=void-Projec.dir\Debug\Projet_Moteur_V2.tlog\
                                    UpdateFileHashes=false
                                    VerboseOutput=true
-10:20:06.544     1>Génération de la cible "ComputeManifestInputsTargets" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:74)
+10:21:14.570     1>Génération de la cible "ComputeManifestInputsTargets" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:74)
                    Cible "ManifestResourceCompile" ignorée en raison d'une fausse condition ; ('$(EmbedManifestBy)' == 'LINK' and '@(Manifest)' != '') a été évaluée comme ('LINK' == 'LINK' and '' != '').
                    Cible "AssignWinFXEmbeddedResource" ignorée en raison d'une fausse condition ; ('@(WinFXEmbeddedResource)' != '') a été évaluée comme ('' != '').
-10:20:06.544     1>Cible "AssignTargetPaths : (IdCible:75)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareResourceNames" en dépend) :
+10:21:14.570     1>Cible "AssignTargetPaths : (IdCible:75)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareResourceNames" en dépend) :
                    Utilisation de la tâche "AssignTargetPath" à partir de l'assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Tâche "AssignTargetPath" (IDTâche:24)
                      Paramètre de tâche :RootFolder=E:\C++\Projet_Moteur_V2\Projet_Moteur_V2 (IDTâche:24)
@@ -2271,9 +2271,9 @@ windir = C:\WINDOWS
                      Paramètre de tâche :RootFolder=E:\C++\Projet_Moteur_V2\Projet_Moteur_V2 (IDTâche:27)
                    Exécution de la tâche "AssignTargetPath" terminée. (IDTâche:27)
                    Tâche "AssignTargetPath" ignorée en raison d'une fausse condition ; ('@(_DeploymentBaseManifestWithTargetPath)'=='' and '%(None.Extension)'=='.manifest') a été évaluée comme (''=='' and '.config'=='.manifest').
-10:20:06.546     1>Génération de la cible "AssignTargetPaths" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:75)
+10:21:14.570     1>Génération de la cible "AssignTargetPaths" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:75)
                    Cible "AssignTargetPaths" ignorée. Elle a été générée.
-10:20:06.546     1>Cible "SplitResourcesByCulture : (IdCible:76)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareResourceNames" en dépend) :
+10:21:14.570     1>Cible "SplitResourcesByCulture : (IdCible:76)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareResourceNames" en dépend) :
                    Tâche "Warning" ignorée en raison d'une fausse condition ; ('@(ResxWithNoCulture)'!='') a été évaluée comme (''!='').
                    Tâche "Warning" ignorée en raison d'une fausse condition ; ('@(ResxWithCulture)'!='') a été évaluée comme (''!='').
                    Tâche "Warning" ignorée en raison d'une fausse condition ; ('@(NonResxWithCulture)'!='') a été évaluée comme (''!='').
@@ -2281,13 +2281,13 @@ windir = C:\WINDOWS
                    Utilisation de la tâche "AssignCulture" à partir de l'assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Tâche "AssignCulture" (IDTâche:28)
                    Exécution de la tâche "AssignCulture" terminée. (IDTâche:28)
-10:20:06.547     1>Génération de la cible "SplitResourcesByCulture" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:76)
+10:21:14.571     1>Génération de la cible "SplitResourcesByCulture" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:76)
                    Cible "CreateManifestResourceNames" ignorée en raison d'une fausse condition ; ('@(EmbeddedResource)' != '') a été évaluée comme ('' != '').
-10:20:06.547     1>Cible "CreateCustomManifestResourceNames : (IdCible:77)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareResourceNames" en dépend) :
-10:20:06.547     1>Génération de la cible "CreateCustomManifestResourceNames" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:77)
-10:20:06.547     1>Cible "PrepareResourceNames : (IdCible:78)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
-10:20:06.547     1>Génération de la cible "PrepareResourceNames" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:78)
-10:20:06.547     1>Cible "MakeDirsForLink : (IdCible:79)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.571     1>Cible "CreateCustomManifestResourceNames : (IdCible:77)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareResourceNames" en dépend) :
+10:21:14.571     1>Génération de la cible "CreateCustomManifestResourceNames" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:77)
+10:21:14.571     1>Cible "PrepareResourceNames : (IdCible:78)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.571     1>Génération de la cible "PrepareResourceNames" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:78)
+10:21:14.571     1>Cible "MakeDirsForLink : (IdCible:79)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Propriété définie : _LinkImportLibrary=E:/C++/voidProject/Debug/void-Projec.lib
                    Élément(s) ajouté(s) : _LinkImportLibraryFile=E:/C++/voidProject/Debug/void-Projec.lib
                    Élément(s) ajouté(s) : LinkDirsToMake=E:\C++\voidProject\Debug
@@ -2309,25 +2309,25 @@ windir = C:\WINDOWS
                            E:\C++\voidProject\Debug
                            E:\C++\voidProject\Debug\
                    Élément(s) supprimé(s) : _LinkImportLibraryFile=E:/C++/voidProject/Debug/void-Projec.lib
-10:20:06.547     1>Génération de la cible "MakeDirsForLink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:79)
-10:20:06.547     1>Cible "DoLinkOutputFilesMatch : (IdCible:80)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.571     1>Génération de la cible "MakeDirsForLink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:79)
+10:21:14.571     1>Cible "DoLinkOutputFilesMatch : (IdCible:80)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Élément(s) ajouté(s) : _OutputFileFromLink=E:\C++\voidProject\Debug\void-Projec.exe
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('@(_OutputFileFromLink)' == '') a été évaluée comme ('E:\C++\voidProject\Debug\void-Projec.exe' == '').
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.FullPath)' != '$([System.IO.Path]::GetFullPath($(TargetPath)))') a été évaluée comme ('E:\C++\voidProject\Debug\void-Projec.exe' != '' and 'E:\C++\voidProject\Debug\void-Projec.exe' != 'E:\C++\voidProject\Debug\void-Projec.exe').
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Extension)' != '' and '%(_OutputFileFromLink.Extension)' != '$(TargetExt)') a été évaluée comme ('E:\C++\voidProject\Debug\void-Projec.exe' != '' and '.exe' != '' and '.exe' != '.exe').
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('@(_OutputFileFromLink)' != '' and '%(_OutputFileFromLink.Filename)' != '' and '%(_OutputFileFromLink.Filename)' != '$(TargetName)') a été évaluée comme ('E:\C++\voidProject\Debug\void-Projec.exe' != '' and 'void-Projec' != '' and 'void-Projec' != 'void-Projec').
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('%(Link.MinimumRequiredVersion)' != '' and ('%(Link.Subsystem)' == '' or '%(Link.Subsystem)' == 'NotSet')) a été évaluée comme ('' != '' and ('Windows' == '' or 'Windows' == 'NotSet')).
-10:20:06.548     1>Génération de la cible "DoLinkOutputFilesMatch" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:80)
-10:20:06.548     1>Cible "PreLinkEvent : (IdCible:81)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.571     1>Génération de la cible "DoLinkOutputFilesMatch" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:80)
+10:21:14.571     1>Cible "PreLinkEvent : (IdCible:81)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Tâche "Message" ignorée en raison d'une fausse condition ; ('%(PreLinkEvent.Message)' != '' and '%(PreLinkEvent.Command)' != '') a été évaluée comme ('' != '' and '' != '').
                    Tâche "Exec" ignorée en raison d'une fausse condition ; ('%(PreLinkEvent.Command)' != '') a été évaluée comme ('' != '').
-10:20:06.548     1>Génération de la cible "PreLinkEvent" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:81)
-10:20:06.548     1>Cible "ComputeLinkSwitches : (IdCible:82)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Link" en dépend) :
+10:21:14.571     1>Génération de la cible "PreLinkEvent" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:81)
+10:21:14.571     1>Cible "ComputeLinkSwitches : (IdCible:82)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "Link" en dépend) :
                    Propriété définie : Link_MinimalRebuildFromTracking=true
                    Propriété définie : LinkToolArchitecture=Native32Bit
                    Propriété définie : _GenerateWindowsMetadata=
-10:20:06.548     1>Génération de la cible "ComputeLinkSwitches" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:82)
-10:20:06.548     1>Cible "Link : (IdCible:83)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.572     1>Génération de la cible "ComputeLinkSwitches" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:82)
+10:21:14.572     1>Cible "Link : (IdCible:83)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Utilisation de la tâche "Link" à partir de l'assembly "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.Build.CppTasks.Common.dll".
                    Tâche "Link" (IDTâche:30)
                      Paramètre de tâche :BuildingInIde=True (IDTâche:30)
@@ -2518,82 +2518,83 @@ windir = C:\WINDOWS
                      	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\LIB\10.0.15063.0\UCRT\X86\UCRTD.LIB (IDTâche:30)
                      	C:\PROGRAM FILES (X86)\WINDOWS KITS\10\BIN\10.0.15063.0\X86\RC.EXE (IDTâche:30)
                      	E:\PROGRAMS\VS17\VC\TOOLS\MSVC\14.10.25017\BIN\HOSTX86\X86\CVTRES.EXE (IDTâche:30)
+                     	E:\PROGRAMS\VS17\VC\TOOLS\MSVC\14.10.25017\BIN\HOSTX86\X86\MSPDBSRV.EXE (IDTâche:30)
                      	C:\WINDOWS\SYSTEM32\TZRES.DLL (IDTâche:30)
                      Compilation source requise : l'entrée E:\C++\PROJET_MOTEUR_V2\PROJET_MOTEUR_V2\VOID-PROJEC.DIR\DEBUG\MAIN.OBJ est plus récente que la sortie E:\C++\VOIDPROJECT\DEBUG\VOID-PROJEC.EXE. (IDTâche:30)
                      Variables d'environnement passées à l'outil : (IDTâche:30)
-                       VS_UNICODE_OUTPUT=1528 (IDTâche:30)
+                       VS_UNICODE_OUTPUT=1620 (IDTâche:30)
                      E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe /ERRORREPORT:PROMPT /OUT:"E:\C++\voidProject\Debug\void-Projec.exe" /INCREMENTAL /NOLOGO /FORCE E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/lib/Win32/Debug/DirectXTKAudioDX.lib E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/lib/Win32/Debug/DirectXTK.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/C++/voidProject/Debug/void-Projec.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/C++/voidProject/Debug/void-Projec.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "void-Projec.dir\Debug\Collision.res"
                      "void-Projec.dir\Debug\main.obj" (IDTâche:30)
                      Commande de suivi : (IDTâche:30)
-                     E:\Programs\VS17\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug\Projet_Moteur_V2.tlog /r "E:\C++\PROJET_MOTEUR_V2\PROJET_MOTEUR_V2\VOID-PROJEC.DIR\DEBUG\COLLISION.RES|E:\C++\PROJET_MOTEUR_V2\PROJET_MOTEUR_V2\VOID-PROJEC.DIR\DEBUG\MAIN.OBJ" /b MSBuildConsole_CancelEventecf79c29c79a46b9aa72f5f9b808b729  /c E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe  /ERRORREPORT:PROMPT /OUT:"E:\C++\voidProject\Debug\void-Projec.exe" /INCREMENTAL /NOLOGO /FORCE E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/lib/Win32/Debug/DirectXTKAudioDX.lib E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/lib/Win32/Debug/DirectXTK.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/C++/voidProject/Debug/void-Projec.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/C++/voidProject/Debug/void-Projec.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "void-Projec.dir\Debug\Collision.res"
+                     E:\Programs\VS17\MSBuild\15.0\Bin\Tracker.exe /a /d "C:\Program Files (x86)\MSBuild\15.0\FileTracker\FileTracker32.dll" /i E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\void-Projec.dir\Debug\Projet_Moteur_V2.tlog /r "E:\C++\PROJET_MOTEUR_V2\PROJET_MOTEUR_V2\VOID-PROJEC.DIR\DEBUG\COLLISION.RES|E:\C++\PROJET_MOTEUR_V2\PROJET_MOTEUR_V2\VOID-PROJEC.DIR\DEBUG\MAIN.OBJ" /b MSBuildConsole_CancelEvent3305c17823324b309c15880048b4dd62  /c E:\Programs\VS17\VC\Tools\MSVC\14.10.25017\bin\HostX86\x86\link.exe  /ERRORREPORT:PROMPT /OUT:"E:\C++\voidProject\Debug\void-Projec.exe" /INCREMENTAL /NOLOGO /FORCE E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/lib/Win32/Debug/DirectXTKAudioDX.lib E:\C++\Projet_Moteur_V2\packages\directxtk_desktop_2015.2017.4.24.1\build\native\../../build/native/lib/Win32/Debug/DirectXTK.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/C++/voidProject/Debug/void-Projec.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/C++/voidProject/Debug/void-Projec.lib" /MACHINE:X86 /SAFESEH   /machine:X86 "void-Projec.dir\Debug\Collision.res"
                      "void-Projec.dir\Debug\main.obj" (IDTâche:30)
-10:20:06.673     1>LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/FORCE'
-10:20:06.682     1>DirectXTK.lib(CommonStates.obj) : warning LNK4075: ' /EDITANDCONTINUE' ignoré à cause de la spécification '/SAFESEH'
-10:20:07.105     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackFrameMove(void (__stdcall*)(double,float,void *),void *)" (?DXUTSetCallbackFrameMove@@YGXP6GXNMPAX@Z0@Z) référencé dans la fonction _wWinMain@16
-10:20:07.107     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackKeyboard(void (__stdcall*)(unsigned int,bool,bool,void *),void *)" (?DXUTSetCallbackKeyboard@@YGXP6GXI_N0PAX@Z1@Z) référencé dans la fonction _wWinMain@16
-10:20:07.107     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackMsgProc(long (__stdcall*)(struct HWND__ *,unsigned int,unsigned int,long,bool *,void *),void *)" (?DXUTSetCallbackMsgProc@@YGXP6GJPAUHWND__@@IIJPA_NPAX@Z2@Z) référencé dans la fonction _wWinMain@16
-10:20:07.107     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackDeviceChanging(bool (__stdcall*)(struct DXUTDeviceSettings *,void *),void *)" (?DXUTSetCallbackDeviceChanging@@YGXP6G_NPAUDXUTDeviceSettings@@PAX@Z1@Z) référencé dans la fonction _wWinMain@16
-10:20:07.108     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11DeviceAcceptable(bool (__stdcall*)(class CD3D11EnumAdapterInfo const *,unsigned int,class CD3D11EnumDeviceInfo const *,enum DXGI_FORMAT,bool,void *),void *)" (?DXUTSetCallbackD3D11DeviceAcceptable@@YGXP6G_NPBVCD3D11EnumAdapterInfo@@IPBVCD3D11EnumDeviceInfo@@W4DXGI_FORMAT@@_NPAX@Z4@Z) référencé dans la fonction _wWinMain@16
-10:20:07.108     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11DeviceCreated(long (__stdcall*)(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *),void *)" (?DXUTSetCallbackD3D11DeviceCreated@@YGXP6GJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z2@Z) référencé dans la fonction _wWinMain@16
-10:20:07.108     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11SwapChainResized(long (__stdcall*)(struct ID3D11Device *,struct IDXGISwapChain *,struct DXGI_SURFACE_DESC const *,void *),void *)" (?DXUTSetCallbackD3D11SwapChainResized@@YGXP6GJPAUID3D11Device@@PAUIDXGISwapChain@@PBUDXGI_SURFACE_DESC@@PAX@Z3@Z) référencé dans la fonction _wWinMain@16
-10:20:07.108     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11FrameRender(void (__stdcall*)(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *),void *)" (?DXUTSetCallbackD3D11FrameRender@@YGXP6GXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z2@Z) référencé dans la fonction _wWinMain@16
-10:20:07.108     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11SwapChainReleasing(void (__stdcall*)(void *),void *)" (?DXUTSetCallbackD3D11SwapChainReleasing@@YGXP6GXPAX@Z0@Z) référencé dans la fonction _wWinMain@16
-10:20:07.108     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11DeviceDestroyed(void (__stdcall*)(void *),void *)" (?DXUTSetCallbackD3D11DeviceDestroyed@@YGXP6GXPAX@Z0@Z) référencé dans la fonction _wWinMain@16
-10:20:07.109     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTInit(bool,bool,wchar_t *,bool)" (?DXUTInit@@YGJ_N0PA_W0@Z) référencé dans la fonction _wWinMain@16
-10:20:07.110     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTCreateWindow(wchar_t const *,struct HINSTANCE__ *,struct HICON__ *,struct HMENU__ *,int,int)" (?DXUTCreateWindow@@YGJPB_WPAUHINSTANCE__@@PAUHICON__@@PAUHMENU__@@HH@Z) référencé dans la fonction _wWinMain@16
-10:20:07.111     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTCreateDevice(enum D3D_FEATURE_LEVEL,bool,int,int)" (?DXUTCreateDevice@@YGJW4D3D_FEATURE_LEVEL@@_NHH@Z) référencé dans la fonction _wWinMain@16
-10:20:07.111     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTMainLoop(struct HACCEL__ *)" (?DXUTMainLoop@@YGJPAUHACCEL__@@@Z) référencé dans la fonction _wWinMain@16
-10:20:07.112     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTToggleFullScreen(void)" (?DXUTToggleFullScreen@@YGJXZ) référencé dans la fonction "void __stdcall OnGUIEvent(unsigned int,int,class CDXUTControl *,void *)" (?OnGUIEvent@@YGXIHPAVCDXUTControl@@PAX@Z)
-10:20:07.113     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTToggleREF(void)" (?DXUTToggleREF@@YGJXZ) référencé dans la fonction "void __stdcall OnGUIEvent(unsigned int,int,class CDXUTControl *,void *)" (?OnGUIEvent@@YGXIHPAVCDXUTControl@@PAX@Z)
-10:20:07.114     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTToggleWARP(void)" (?DXUTToggleWARP@@YGJXZ) référencé dans la fonction "void __stdcall OnGUIEvent(unsigned int,int,class CDXUTControl *,void *)" (?OnGUIEvent@@YGXIHPAVCDXUTControl@@PAX@Z)
-10:20:07.114     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCursorSettings(bool,bool)" (?DXUTSetCursorSettings@@YGX_N0@Z) référencé dans la fonction _wWinMain@16
-10:20:07.115     1>main.obj : error LNK2019: symbole externe non résolu "struct ID3D11RenderTargetView * __stdcall DXUTGetD3D11RenderTargetView(void)" (?DXUTGetD3D11RenderTargetView@@YGPAUID3D11RenderTargetView@@XZ) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
-10:20:07.116     1>main.obj : error LNK2019: symbole externe non résolu "struct ID3D11DepthStencilView * __stdcall DXUTGetD3D11DepthStencilView(void)" (?DXUTGetD3D11DepthStencilView@@YGPAUID3D11DepthStencilView@@XZ) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
-10:20:07.117     1>main.obj : error LNK2019: symbole externe non résolu "struct ID3D11DeviceContext * __stdcall DXUTGetD3D11DeviceContext(void)" (?DXUTGetD3D11DeviceContext@@YGPAUID3D11DeviceContext@@XZ) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
-10:20:07.117     1>main.obj : error LNK2019: symbole externe non résolu "wchar_t const * __stdcall DXUTGetFrameStats(bool)" (?DXUTGetFrameStats@@YGPB_W_N@Z) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
-10:20:07.118     1>main.obj : error LNK2019: symbole externe non résolu "wchar_t const * __stdcall DXUTGetDeviceStats(void)" (?DXUTGetDeviceStats@@YGPB_WXZ) référencé dans la fonction "void __cdecl RenderText(void)" (?RenderText@@YAXXZ)
-10:20:07.119     1>main.obj : error LNK2019: symbole externe non résolu "bool __stdcall DXUTIsVsyncEnabled(void)" (?DXUTIsVsyncEnabled@@YG_NXZ) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
-10:20:07.119     1>main.obj : error LNK2019: symbole externe non résolu "int __stdcall DXUTGetExitCode(void)" (?DXUTGetExitCode@@YGHXZ) référencé dans la fonction _wWinMain@16
-10:20:07.121     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTTrace(char const *,unsigned long,long,wchar_t const *,bool)" (?DXUTTrace@@YGJPBDKJPB_W_N@Z) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
-10:20:07.122     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialog::CDXUTDialog(void)" (??0CDXUTDialog@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_HUD''(void)" (??__Eg_HUD@@YAXXZ)
-10:20:07.123     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialog::~CDXUTDialog(void)" (??1CDXUTDialog@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic atexit destructor for 'g_HUD''(void)" (??__Fg_HUD@@YAXXZ)
-10:20:07.124     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTDialog::Init(class CDXUTDialogResourceManager *,bool)" (?Init@CDXUTDialog@@QAEXPAVCDXUTDialogResourceManager@@_N@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
-10:20:07.125     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialog::AddStatic(int,wchar_t const *,int,int,int,int,bool,class CDXUTStatic * *)" (?AddStatic@CDXUTDialog@@QAEJHPB_WHHHH_NPAPAVCDXUTStatic@@@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
-10:20:07.126     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialog::AddButton(int,wchar_t const *,int,int,int,int,unsigned int,bool,class CDXUTButton * *)" (?AddButton@CDXUTDialog@@QAEJHPB_WHHHHI_NPAPAVCDXUTButton@@@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
-10:20:07.127     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialog::AddComboBox(int,int,int,int,int,unsigned int,bool,class CDXUTComboBox * *)" (?AddComboBox@CDXUTDialog@@QAEJHHHHHI_NPAPAVCDXUTComboBox@@@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
-10:20:07.128     1>main.obj : error LNK2019: symbole externe non résolu "public: class CDXUTControl * __thiscall CDXUTDialog::GetControl(int,unsigned int)const " (?GetControl@CDXUTDialog@@QBEPAVCDXUTControl@@HI@Z) référencé dans la fonction "public: class CDXUTButton * __thiscall CDXUTDialog::GetButton(int)const " (?GetButton@CDXUTDialog@@QBEPAVCDXUTButton@@H@Z)
-10:20:07.129     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTDialog::SetCallback(void (__stdcall*)(unsigned int,int,class CDXUTControl *,void *),void *)" (?SetCallback@CDXUTDialog@@QAEXP6GXIHPAVCDXUTControl@@PAX@Z1@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
-10:20:07.130     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialog::OnRender(float)" (?OnRender@CDXUTDialog@@QAEJM@Z) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
-10:20:07.131     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialogResourceManager::CDXUTDialogResourceManager(void)" (??0CDXUTDialogResourceManager@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_DialogResourceManager''(void)" (??__Eg_DialogResourceManager@@YAXXZ)
-10:20:07.132     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialogResourceManager::~CDXUTDialogResourceManager(void)" (??1CDXUTDialogResourceManager@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic atexit destructor for 'g_DialogResourceManager''(void)" (??__Fg_DialogResourceManager@@YAXXZ)
-10:20:07.133     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialogResourceManager::OnD3D11CreateDevice(struct ID3D11Device *,struct ID3D11DeviceContext *)" (?OnD3D11CreateDevice@CDXUTDialogResourceManager@@QAEJPAUID3D11Device@@PAUID3D11DeviceContext@@@Z) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
-10:20:07.134     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialogResourceManager::OnD3D11ResizedSwapChain(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *)" (?OnD3D11ResizedSwapChain@CDXUTDialogResourceManager@@QAEJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@@Z) référencé dans la fonction "long __stdcall OnD3D11ResizedSwapChain(struct ID3D11Device *,struct IDXGISwapChain *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11ResizedSwapChain@@YGJPAUID3D11Device@@PAUIDXGISwapChain@@PBUDXGI_SURFACE_DESC@@PAX@Z)
-10:20:07.135     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTDialogResourceManager::OnD3D11ReleasingSwapChain(void)" (?OnD3D11ReleasingSwapChain@CDXUTDialogResourceManager@@QAEXXZ) référencé dans la fonction "void __stdcall OnD3D11ReleasingSwapChain(void *)" (?OnD3D11ReleasingSwapChain@@YGXPAX@Z)
-10:20:07.136     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTDialogResourceManager::OnD3D11DestroyDevice(void)" (?OnD3D11DestroyDevice@CDXUTDialogResourceManager@@QAEXXZ) référencé dans la fonction "void __stdcall OnD3D11DestroyDevice(void *)" (?OnD3D11DestroyDevice@@YGXPAX@Z)
-10:20:07.136     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTComboBox::AddItem(wchar_t const *,void *)" (?AddItem@CDXUTComboBox@@QAEJPB_WPAX@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
-10:20:07.137     1>main.obj : error LNK2019: symbole externe non résolu "public: void * __thiscall CDXUTComboBox::GetSelectedData(void)const " (?GetSelectedData@CDXUTComboBox@@QBEPAXXZ) référencé dans la fonction "void __stdcall OnGUIEvent(unsigned int,int,class CDXUTControl *,void *)" (?OnGUIEvent@@YGXIHPAVCDXUTControl@@PAX@Z)
-10:20:07.137     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTComboBox::SetSelectedByData(void *)" (?SetSelectedByData@CDXUTComboBox@@QAEJPAX@Z) référencé dans la fonction "void __stdcall OnKeyboard(unsigned int,bool,bool,void *)" (?OnKeyboard@@YGXI_N0PAX@Z)
-10:20:07.138     1>main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CBaseCamera::SetProjParams(float,float,float,float)" (?SetProjParams@CBaseCamera@@UAEXMMMM@Z) référencé dans la fonction "long __stdcall OnD3D11ResizedSwapChain(struct ID3D11Device *,struct IDXGISwapChain *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11ResizedSwapChain@@YGJPAUID3D11Device@@PAUIDXGISwapChain@@PBUDXGI_SURFACE_DESC@@PAX@Z)
-10:20:07.138     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CModelViewerCamera::CModelViewerCamera(void)" (??0CModelViewerCamera@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_Camera''(void)" (??__Eg_Camera@@YAXXZ)
-10:20:07.138     1>main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CModelViewerCamera::FrameMove(float)" (?FrameMove@CModelViewerCamera@@UAEXM@Z) référencé dans la fonction "void __stdcall OnFrameMove(double,float,void *)" (?OnFrameMove@@YGXNMPAX@Z)
-10:20:07.139     1>main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CModelViewerCamera::Reset(void)" (?Reset@CModelViewerCamera@@UAEXXZ) référencé dans la fonction "void __cdecl SetViewForGroup(int)" (?SetViewForGroup@@YAXH@Z)
-10:20:07.139     1>main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CModelViewerCamera::SetViewParams(union __m128,union __m128)" (?SetViewParams@CModelViewerCamera@@UAEXT__m128@@0@Z) référencé dans la fonction "void __cdecl SetViewForGroup(int)" (?SetViewForGroup@@YAXH@Z)
-10:20:07.139     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CD3DSettingsDlg::CD3DSettingsDlg(void)" (??0CD3DSettingsDlg@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_SettingsDlg''(void)" (??__Eg_SettingsDlg@@YAXXZ)
-10:20:07.140     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CD3DSettingsDlg::~CD3DSettingsDlg(void)" (??1CD3DSettingsDlg@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic atexit destructor for 'g_SettingsDlg''(void)" (??__Fg_SettingsDlg@@YAXXZ)
-10:20:07.140     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CD3DSettingsDlg::Init(class CDXUTDialogResourceManager *)" (?Init@CD3DSettingsDlg@@QAEXPAVCDXUTDialogResourceManager@@@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
-10:20:07.140     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CD3DSettingsDlg::Refresh(void)" (?Refresh@CD3DSettingsDlg@@QAEJXZ) référencé dans la fonction "public: void __thiscall CD3DSettingsDlg::SetActive(bool)" (?SetActive@CD3DSettingsDlg@@QAEX_N@Z)
-10:20:07.140     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CD3DSettingsDlg::OnRender(float)" (?OnRender@CD3DSettingsDlg@@QAEXM@Z) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
-10:20:07.141     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CD3DSettingsDlg::OnD3D11CreateDevice(struct ID3D11Device *)" (?OnD3D11CreateDevice@CD3DSettingsDlg@@QAEJPAUID3D11Device@@@Z) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
-10:20:07.141     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CD3DSettingsDlg::OnD3D11ResizedSwapChain(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *)" (?OnD3D11ResizedSwapChain@CD3DSettingsDlg@@QAEJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@@Z) référencé dans la fonction "long __stdcall OnD3D11ResizedSwapChain(struct ID3D11Device *,struct IDXGISwapChain *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11ResizedSwapChain@@YGJPAUID3D11Device@@PAUIDXGISwapChain@@PBUDXGI_SURFACE_DESC@@PAX@Z)
-10:20:07.141     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CD3DSettingsDlg::OnD3D11DestroyDevice(void)" (?OnD3D11DestroyDevice@CD3DSettingsDlg@@QAEXXZ) référencé dans la fonction "void __stdcall OnD3D11DestroyDevice(void *)" (?OnD3D11DestroyDevice@@YGXPAX@Z)
-10:20:07.142     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTResourceCache::OnDestroyDevice(void)" (?OnDestroyDevice@CDXUTResourceCache@@QAEJXZ) référencé dans la fonction "void __stdcall OnD3D11DestroyDevice(void *)" (?OnD3D11DestroyDevice@@YGXPAX@Z)
-10:20:07.142     1>main.obj : error LNK2019: symbole externe non résolu "class CDXUTResourceCache & __stdcall DXUTGetGlobalResourceCache(void)" (?DXUTGetGlobalResourceCache@@YGAAVCDXUTResourceCache@@XZ) référencé dans la fonction "void __stdcall OnD3D11DestroyDevice(void *)" (?OnD3D11DestroyDevice@@YGXPAX@Z)
-10:20:07.142     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTTextHelper::CDXUTTextHelper(struct ID3D11Device *,struct ID3D11DeviceContext *,class CDXUTDialogResourceManager *,int)" (??0CDXUTTextHelper@@QAE@PAUID3D11Device@@PAUID3D11DeviceContext@@PAVCDXUTDialogResourceManager@@H@Z) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
-10:20:07.143     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTTextHelper::~CDXUTTextHelper(void)" (??1CDXUTTextHelper@@QAE@XZ) référencé dans la fonction "public: void * __thiscall CDXUTTextHelper::`scalar deleting destructor'(unsigned int)" (??_GCDXUTTextHelper@@QAEPAXI@Z)
-10:20:07.143     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTTextHelper::Begin(void)" (?Begin@CDXUTTextHelper@@QAEXXZ) référencé dans la fonction "void __cdecl RenderText(void)" (?RenderText@@YAXXZ)
-10:20:07.143     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTTextHelper::DrawTextLine(wchar_t const *)" (?DrawTextLine@CDXUTTextHelper@@QAEJPB_W@Z) référencé dans la fonction "void __cdecl RenderText(void)" (?RenderText@@YAXXZ)
-10:20:07.144     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTTextHelper::End(void)" (?End@CDXUTTextHelper@@QAEXXZ) référencé dans la fonction "void __cdecl RenderText(void)" (?RenderText@@YAXXZ)
-10:20:07.148     1>E:\C++\voidProject\Debug\void-Projec.exe : warning LNK4088: image en cours de génération à cause de l'option /FORCE ; l'image risque de ne pas s'exécuter
+10:21:14.622     1>LINK : warning LNK4075: ' /INCREMENTAL' ignoré à cause de la spécification '/FORCE'
+10:21:14.629     1>DirectXTK.lib(CommonStates.obj) : warning LNK4075: ' /EDITANDCONTINUE' ignoré à cause de la spécification '/SAFESEH'
+10:21:14.725     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackFrameMove(void (__stdcall*)(double,float,void *),void *)" (?DXUTSetCallbackFrameMove@@YGXP6GXNMPAX@Z0@Z) référencé dans la fonction _wWinMain@16
+10:21:14.725     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackKeyboard(void (__stdcall*)(unsigned int,bool,bool,void *),void *)" (?DXUTSetCallbackKeyboard@@YGXP6GXI_N0PAX@Z1@Z) référencé dans la fonction _wWinMain@16
+10:21:14.725     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackMsgProc(long (__stdcall*)(struct HWND__ *,unsigned int,unsigned int,long,bool *,void *),void *)" (?DXUTSetCallbackMsgProc@@YGXP6GJPAUHWND__@@IIJPA_NPAX@Z2@Z) référencé dans la fonction _wWinMain@16
+10:21:14.726     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackDeviceChanging(bool (__stdcall*)(struct DXUTDeviceSettings *,void *),void *)" (?DXUTSetCallbackDeviceChanging@@YGXP6G_NPAUDXUTDeviceSettings@@PAX@Z1@Z) référencé dans la fonction _wWinMain@16
+10:21:14.726     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11DeviceAcceptable(bool (__stdcall*)(class CD3D11EnumAdapterInfo const *,unsigned int,class CD3D11EnumDeviceInfo const *,enum DXGI_FORMAT,bool,void *),void *)" (?DXUTSetCallbackD3D11DeviceAcceptable@@YGXP6G_NPBVCD3D11EnumAdapterInfo@@IPBVCD3D11EnumDeviceInfo@@W4DXGI_FORMAT@@_NPAX@Z4@Z) référencé dans la fonction _wWinMain@16
+10:21:14.726     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11DeviceCreated(long (__stdcall*)(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *),void *)" (?DXUTSetCallbackD3D11DeviceCreated@@YGXP6GJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z2@Z) référencé dans la fonction _wWinMain@16
+10:21:14.727     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11SwapChainResized(long (__stdcall*)(struct ID3D11Device *,struct IDXGISwapChain *,struct DXGI_SURFACE_DESC const *,void *),void *)" (?DXUTSetCallbackD3D11SwapChainResized@@YGXP6GJPAUID3D11Device@@PAUIDXGISwapChain@@PBUDXGI_SURFACE_DESC@@PAX@Z3@Z) référencé dans la fonction _wWinMain@16
+10:21:14.727     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11FrameRender(void (__stdcall*)(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *),void *)" (?DXUTSetCallbackD3D11FrameRender@@YGXP6GXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z2@Z) référencé dans la fonction _wWinMain@16
+10:21:14.727     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11SwapChainReleasing(void (__stdcall*)(void *),void *)" (?DXUTSetCallbackD3D11SwapChainReleasing@@YGXP6GXPAX@Z0@Z) référencé dans la fonction _wWinMain@16
+10:21:14.727     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCallbackD3D11DeviceDestroyed(void (__stdcall*)(void *),void *)" (?DXUTSetCallbackD3D11DeviceDestroyed@@YGXP6GXPAX@Z0@Z) référencé dans la fonction _wWinMain@16
+10:21:14.727     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTInit(bool,bool,wchar_t *,bool)" (?DXUTInit@@YGJ_N0PA_W0@Z) référencé dans la fonction _wWinMain@16
+10:21:14.728     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTCreateWindow(wchar_t const *,struct HINSTANCE__ *,struct HICON__ *,struct HMENU__ *,int,int)" (?DXUTCreateWindow@@YGJPB_WPAUHINSTANCE__@@PAUHICON__@@PAUHMENU__@@HH@Z) référencé dans la fonction _wWinMain@16
+10:21:14.728     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTCreateDevice(enum D3D_FEATURE_LEVEL,bool,int,int)" (?DXUTCreateDevice@@YGJW4D3D_FEATURE_LEVEL@@_NHH@Z) référencé dans la fonction _wWinMain@16
+10:21:14.728     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTMainLoop(struct HACCEL__ *)" (?DXUTMainLoop@@YGJPAUHACCEL__@@@Z) référencé dans la fonction _wWinMain@16
+10:21:14.728     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTToggleFullScreen(void)" (?DXUTToggleFullScreen@@YGJXZ) référencé dans la fonction "void __stdcall OnGUIEvent(unsigned int,int,class CDXUTControl *,void *)" (?OnGUIEvent@@YGXIHPAVCDXUTControl@@PAX@Z)
+10:21:14.729     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTToggleREF(void)" (?DXUTToggleREF@@YGJXZ) référencé dans la fonction "void __stdcall OnGUIEvent(unsigned int,int,class CDXUTControl *,void *)" (?OnGUIEvent@@YGXIHPAVCDXUTControl@@PAX@Z)
+10:21:14.729     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTToggleWARP(void)" (?DXUTToggleWARP@@YGJXZ) référencé dans la fonction "void __stdcall OnGUIEvent(unsigned int,int,class CDXUTControl *,void *)" (?OnGUIEvent@@YGXIHPAVCDXUTControl@@PAX@Z)
+10:21:14.729     1>main.obj : error LNK2019: symbole externe non résolu "void __stdcall DXUTSetCursorSettings(bool,bool)" (?DXUTSetCursorSettings@@YGX_N0@Z) référencé dans la fonction _wWinMain@16
+10:21:14.729     1>main.obj : error LNK2019: symbole externe non résolu "struct ID3D11RenderTargetView * __stdcall DXUTGetD3D11RenderTargetView(void)" (?DXUTGetD3D11RenderTargetView@@YGPAUID3D11RenderTargetView@@XZ) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
+10:21:14.729     1>main.obj : error LNK2019: symbole externe non résolu "struct ID3D11DepthStencilView * __stdcall DXUTGetD3D11DepthStencilView(void)" (?DXUTGetD3D11DepthStencilView@@YGPAUID3D11DepthStencilView@@XZ) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
+10:21:14.730     1>main.obj : error LNK2019: symbole externe non résolu "struct ID3D11DeviceContext * __stdcall DXUTGetD3D11DeviceContext(void)" (?DXUTGetD3D11DeviceContext@@YGPAUID3D11DeviceContext@@XZ) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
+10:21:14.730     1>main.obj : error LNK2019: symbole externe non résolu "wchar_t const * __stdcall DXUTGetFrameStats(bool)" (?DXUTGetFrameStats@@YGPB_W_N@Z) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
+10:21:14.730     1>main.obj : error LNK2019: symbole externe non résolu "wchar_t const * __stdcall DXUTGetDeviceStats(void)" (?DXUTGetDeviceStats@@YGPB_WXZ) référencé dans la fonction "void __cdecl RenderText(void)" (?RenderText@@YAXXZ)
+10:21:14.730     1>main.obj : error LNK2019: symbole externe non résolu "bool __stdcall DXUTIsVsyncEnabled(void)" (?DXUTIsVsyncEnabled@@YG_NXZ) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
+10:21:14.730     1>main.obj : error LNK2019: symbole externe non résolu "int __stdcall DXUTGetExitCode(void)" (?DXUTGetExitCode@@YGHXZ) référencé dans la fonction _wWinMain@16
+10:21:14.731     1>main.obj : error LNK2019: symbole externe non résolu "long __stdcall DXUTTrace(char const *,unsigned long,long,wchar_t const *,bool)" (?DXUTTrace@@YGJPBDKJPB_W_N@Z) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
+10:21:14.731     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialog::CDXUTDialog(void)" (??0CDXUTDialog@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_HUD''(void)" (??__Eg_HUD@@YAXXZ)
+10:21:14.731     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialog::~CDXUTDialog(void)" (??1CDXUTDialog@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic atexit destructor for 'g_HUD''(void)" (??__Fg_HUD@@YAXXZ)
+10:21:14.731     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTDialog::Init(class CDXUTDialogResourceManager *,bool)" (?Init@CDXUTDialog@@QAEXPAVCDXUTDialogResourceManager@@_N@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
+10:21:14.732     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialog::AddStatic(int,wchar_t const *,int,int,int,int,bool,class CDXUTStatic * *)" (?AddStatic@CDXUTDialog@@QAEJHPB_WHHHH_NPAPAVCDXUTStatic@@@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
+10:21:14.732     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialog::AddButton(int,wchar_t const *,int,int,int,int,unsigned int,bool,class CDXUTButton * *)" (?AddButton@CDXUTDialog@@QAEJHPB_WHHHHI_NPAPAVCDXUTButton@@@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
+10:21:14.732     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialog::AddComboBox(int,int,int,int,int,unsigned int,bool,class CDXUTComboBox * *)" (?AddComboBox@CDXUTDialog@@QAEJHHHHHI_NPAPAVCDXUTComboBox@@@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
+10:21:14.732     1>main.obj : error LNK2019: symbole externe non résolu "public: class CDXUTControl * __thiscall CDXUTDialog::GetControl(int,unsigned int)const " (?GetControl@CDXUTDialog@@QBEPAVCDXUTControl@@HI@Z) référencé dans la fonction "public: class CDXUTButton * __thiscall CDXUTDialog::GetButton(int)const " (?GetButton@CDXUTDialog@@QBEPAVCDXUTButton@@H@Z)
+10:21:14.732     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTDialog::SetCallback(void (__stdcall*)(unsigned int,int,class CDXUTControl *,void *),void *)" (?SetCallback@CDXUTDialog@@QAEXP6GXIHPAVCDXUTControl@@PAX@Z1@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
+10:21:14.733     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialog::OnRender(float)" (?OnRender@CDXUTDialog@@QAEJM@Z) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
+10:21:14.733     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialogResourceManager::CDXUTDialogResourceManager(void)" (??0CDXUTDialogResourceManager@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_DialogResourceManager''(void)" (??__Eg_DialogResourceManager@@YAXXZ)
+10:21:14.733     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTDialogResourceManager::~CDXUTDialogResourceManager(void)" (??1CDXUTDialogResourceManager@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic atexit destructor for 'g_DialogResourceManager''(void)" (??__Fg_DialogResourceManager@@YAXXZ)
+10:21:14.733     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialogResourceManager::OnD3D11CreateDevice(struct ID3D11Device *,struct ID3D11DeviceContext *)" (?OnD3D11CreateDevice@CDXUTDialogResourceManager@@QAEJPAUID3D11Device@@PAUID3D11DeviceContext@@@Z) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
+10:21:14.733     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTDialogResourceManager::OnD3D11ResizedSwapChain(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *)" (?OnD3D11ResizedSwapChain@CDXUTDialogResourceManager@@QAEJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@@Z) référencé dans la fonction "long __stdcall OnD3D11ResizedSwapChain(struct ID3D11Device *,struct IDXGISwapChain *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11ResizedSwapChain@@YGJPAUID3D11Device@@PAUIDXGISwapChain@@PBUDXGI_SURFACE_DESC@@PAX@Z)
+10:21:14.734     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTDialogResourceManager::OnD3D11ReleasingSwapChain(void)" (?OnD3D11ReleasingSwapChain@CDXUTDialogResourceManager@@QAEXXZ) référencé dans la fonction "void __stdcall OnD3D11ReleasingSwapChain(void *)" (?OnD3D11ReleasingSwapChain@@YGXPAX@Z)
+10:21:14.734     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTDialogResourceManager::OnD3D11DestroyDevice(void)" (?OnD3D11DestroyDevice@CDXUTDialogResourceManager@@QAEXXZ) référencé dans la fonction "void __stdcall OnD3D11DestroyDevice(void *)" (?OnD3D11DestroyDevice@@YGXPAX@Z)
+10:21:14.734     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTComboBox::AddItem(wchar_t const *,void *)" (?AddItem@CDXUTComboBox@@QAEJPB_WPAX@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
+10:21:14.734     1>main.obj : error LNK2019: symbole externe non résolu "public: void * __thiscall CDXUTComboBox::GetSelectedData(void)const " (?GetSelectedData@CDXUTComboBox@@QBEPAXXZ) référencé dans la fonction "void __stdcall OnGUIEvent(unsigned int,int,class CDXUTControl *,void *)" (?OnGUIEvent@@YGXIHPAVCDXUTControl@@PAX@Z)
+10:21:14.734     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTComboBox::SetSelectedByData(void *)" (?SetSelectedByData@CDXUTComboBox@@QAEJPAX@Z) référencé dans la fonction "void __stdcall OnKeyboard(unsigned int,bool,bool,void *)" (?OnKeyboard@@YGXI_N0PAX@Z)
+10:21:14.734     1>main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CBaseCamera::SetProjParams(float,float,float,float)" (?SetProjParams@CBaseCamera@@UAEXMMMM@Z) référencé dans la fonction "long __stdcall OnD3D11ResizedSwapChain(struct ID3D11Device *,struct IDXGISwapChain *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11ResizedSwapChain@@YGJPAUID3D11Device@@PAUIDXGISwapChain@@PBUDXGI_SURFACE_DESC@@PAX@Z)
+10:21:14.735     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CModelViewerCamera::CModelViewerCamera(void)" (??0CModelViewerCamera@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_Camera''(void)" (??__Eg_Camera@@YAXXZ)
+10:21:14.735     1>main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CModelViewerCamera::FrameMove(float)" (?FrameMove@CModelViewerCamera@@UAEXM@Z) référencé dans la fonction "void __stdcall OnFrameMove(double,float,void *)" (?OnFrameMove@@YGXNMPAX@Z)
+10:21:14.735     1>main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CModelViewerCamera::Reset(void)" (?Reset@CModelViewerCamera@@UAEXXZ) référencé dans la fonction "void __cdecl SetViewForGroup(int)" (?SetViewForGroup@@YAXH@Z)
+10:21:14.735     1>main.obj : error LNK2019: symbole externe non résolu "public: virtual void __thiscall CModelViewerCamera::SetViewParams(union __m128,union __m128)" (?SetViewParams@CModelViewerCamera@@UAEXT__m128@@0@Z) référencé dans la fonction "void __cdecl SetViewForGroup(int)" (?SetViewForGroup@@YAXH@Z)
+10:21:14.735     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CD3DSettingsDlg::CD3DSettingsDlg(void)" (??0CD3DSettingsDlg@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic initializer for 'g_SettingsDlg''(void)" (??__Eg_SettingsDlg@@YAXXZ)
+10:21:14.735     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CD3DSettingsDlg::~CD3DSettingsDlg(void)" (??1CD3DSettingsDlg@@QAE@XZ) référencé dans la fonction "void __cdecl `dynamic atexit destructor for 'g_SettingsDlg''(void)" (??__Fg_SettingsDlg@@YAXXZ)
+10:21:14.736     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CD3DSettingsDlg::Init(class CDXUTDialogResourceManager *)" (?Init@CD3DSettingsDlg@@QAEXPAVCDXUTDialogResourceManager@@@Z) référencé dans la fonction "void __cdecl InitApp(void)" (?InitApp@@YAXXZ)
+10:21:14.736     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CD3DSettingsDlg::Refresh(void)" (?Refresh@CD3DSettingsDlg@@QAEJXZ) référencé dans la fonction "public: void __thiscall CD3DSettingsDlg::SetActive(bool)" (?SetActive@CD3DSettingsDlg@@QAEX_N@Z)
+10:21:14.736     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CD3DSettingsDlg::OnRender(float)" (?OnRender@CD3DSettingsDlg@@QAEXM@Z) référencé dans la fonction "void __stdcall OnD3D11FrameRender(struct ID3D11Device *,struct ID3D11DeviceContext *,double,float,void *)" (?OnD3D11FrameRender@@YGXPAUID3D11Device@@PAUID3D11DeviceContext@@NMPAX@Z)
+10:21:14.736     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CD3DSettingsDlg::OnD3D11CreateDevice(struct ID3D11Device *)" (?OnD3D11CreateDevice@CD3DSettingsDlg@@QAEJPAUID3D11Device@@@Z) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
+10:21:14.736     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CD3DSettingsDlg::OnD3D11ResizedSwapChain(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *)" (?OnD3D11ResizedSwapChain@CD3DSettingsDlg@@QAEJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@@Z) référencé dans la fonction "long __stdcall OnD3D11ResizedSwapChain(struct ID3D11Device *,struct IDXGISwapChain *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11ResizedSwapChain@@YGJPAUID3D11Device@@PAUIDXGISwapChain@@PBUDXGI_SURFACE_DESC@@PAX@Z)
+10:21:14.736     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CD3DSettingsDlg::OnD3D11DestroyDevice(void)" (?OnD3D11DestroyDevice@CD3DSettingsDlg@@QAEXXZ) référencé dans la fonction "void __stdcall OnD3D11DestroyDevice(void *)" (?OnD3D11DestroyDevice@@YGXPAX@Z)
+10:21:14.737     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTResourceCache::OnDestroyDevice(void)" (?OnDestroyDevice@CDXUTResourceCache@@QAEJXZ) référencé dans la fonction "void __stdcall OnD3D11DestroyDevice(void *)" (?OnD3D11DestroyDevice@@YGXPAX@Z)
+10:21:14.737     1>main.obj : error LNK2019: symbole externe non résolu "class CDXUTResourceCache & __stdcall DXUTGetGlobalResourceCache(void)" (?DXUTGetGlobalResourceCache@@YGAAVCDXUTResourceCache@@XZ) référencé dans la fonction "void __stdcall OnD3D11DestroyDevice(void *)" (?OnD3D11DestroyDevice@@YGXPAX@Z)
+10:21:14.737     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTTextHelper::CDXUTTextHelper(struct ID3D11Device *,struct ID3D11DeviceContext *,class CDXUTDialogResourceManager *,int)" (??0CDXUTTextHelper@@QAE@PAUID3D11Device@@PAUID3D11DeviceContext@@PAVCDXUTDialogResourceManager@@H@Z) référencé dans la fonction "long __stdcall OnD3D11CreateDevice(struct ID3D11Device *,struct DXGI_SURFACE_DESC const *,void *)" (?OnD3D11CreateDevice@@YGJPAUID3D11Device@@PBUDXGI_SURFACE_DESC@@PAX@Z)
+10:21:14.737     1>main.obj : error LNK2019: symbole externe non résolu "public: __thiscall CDXUTTextHelper::~CDXUTTextHelper(void)" (??1CDXUTTextHelper@@QAE@XZ) référencé dans la fonction "public: void * __thiscall CDXUTTextHelper::`scalar deleting destructor'(unsigned int)" (??_GCDXUTTextHelper@@QAEPAXI@Z)
+10:21:14.737     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTTextHelper::Begin(void)" (?Begin@CDXUTTextHelper@@QAEXXZ) référencé dans la fonction "void __cdecl RenderText(void)" (?RenderText@@YAXXZ)
+10:21:14.738     1>main.obj : error LNK2019: symbole externe non résolu "public: long __thiscall CDXUTTextHelper::DrawTextLine(wchar_t const *)" (?DrawTextLine@CDXUTTextHelper@@QAEJPB_W@Z) référencé dans la fonction "void __cdecl RenderText(void)" (?RenderText@@YAXXZ)
+10:21:14.738     1>main.obj : error LNK2019: symbole externe non résolu "public: void __thiscall CDXUTTextHelper::End(void)" (?End@CDXUTTextHelper@@QAEXXZ) référencé dans la fonction "void __cdecl RenderText(void)" (?RenderText@@YAXXZ)
+10:21:14.739     1>E:\C++\voidProject\Debug\void-Projec.exe : warning LNK4088: image en cours de génération à cause de l'option /FORCE ; l'image risque de ne pas s'exécuter
                      Propriété en sortie : LinkSkippedExecution=False (IDTâche:30)
                    Exécution de la tâche "Link" terminée. (IDTâche:30)
                    Tâche "Message" (IDTâche:31)
@@ -2607,36 +2608,36 @@ windir = C:\WINDOWS
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; (('$(EmbedManifestBy)' != 'LINK' or '$(LegacyManifestEmbedding)' != 'true' or '$(LinkSkippedExecution)' == 'true') and
                                 %(Link.GenerateDebugInformation) == 'true') a été évaluée comme (('LINK' != 'LINK' or '' != 'true' or 'False' == 'true') and
                                 Debug == 'true').
-10:20:07.432     1>Génération de la cible "Link" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:83)
+10:21:14.935     1>Génération de la cible "Link" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:83)
                    Cible "MetaGenInputsOutputs" ignorée en raison d'une fausse condition ; ('$(EnableManagedIncrementalBuild)' == 'True') a été évaluée comme ('false' == 'True').
                    Cible "ComputeMetaGenInputs" ignorée en raison d'une fausse condition ; ('$(CLRSupport)'!='' and '$(CLRSupport)'!='false') a été évaluée comme ('false'!='' and 'false'!='false').
                    Cible "MetaGen" ignorée en raison d'une fausse condition ; ('@(MetaGen)' != '') a été évaluée comme ('' != '').
-10:20:07.432     1>Cible "ComputeLinkImportLibraryOutputsForClean : (IdCible:84)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.935     1>Cible "ComputeLinkImportLibraryOutputsForClean : (IdCible:84)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
                    Tâche "WriteLinesToFile" ignorée en raison d'une fausse condition ; ('@(_LinkSecondaryOutput)' != '') a été évaluée comme ('' != '').
-10:20:07.432     1>Génération de la cible "ComputeLinkImportLibraryOutputsForClean" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:84)
-10:20:07.432     1>Cible "AfterLink : (IdCible:85)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
-10:20:07.432     1>Génération de la cible "AfterLink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:85)
-10:20:07.432     1>Cible "_Link : (IdCible:86)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
-10:20:07.432     1>Génération de la cible "_Link" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:86)
-10:20:07.432     1>Cible "_ALink : (IdCible:87)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
-10:20:07.432     1>Génération de la cible "_ALink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:87)
+10:21:14.935     1>Génération de la cible "ComputeLinkImportLibraryOutputsForClean" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:84)
+10:21:14.935     1>Cible "AfterLink : (IdCible:85)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_Link" en dépend) :
+10:21:14.935     1>Génération de la cible "AfterLink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:85)
+10:21:14.935     1>Cible "_Link : (IdCible:86)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.935     1>Génération de la cible "_Link" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:86)
+10:21:14.935     1>Cible "_ALink : (IdCible:87)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.935     1>Génération de la cible "_ALink" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:87)
                    Cible "ComputeLegacyManifestEmbedding" ignorée. Elle a été générée.
-10:20:07.432     1>Cible "_Manifest : (IdCible:88)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.935     1>Cible "_Manifest : (IdCible:88)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
                    Tâche "CallTarget" ignorée en raison d'une fausse condition ; ('$(LegacyManifestEmbedding)' == 'true') a été évaluée comme ('' == 'true').
-10:20:07.432     1>Génération de la cible "_Manifest" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:88)
-10:20:07.432     1>Cible "RegisterOutput : (IdCible:89)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.935     1>Génération de la cible "_Manifest" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:88)
+10:21:14.935     1>Cible "RegisterOutput : (IdCible:89)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
                    Tâche "Exec" ignorée en raison d'une fausse condition ; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') a été évaluée comme ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'!='true').
                    Tâche "Exec" ignorée en raison d'une fausse condition ; ('$(ConfigurationType)'=='DynamicLibrary' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') a été évaluée comme ('Application'=='DynamicLibrary' and 'false'=='true' and 'false'=='true').
                    Tâche "Exec" ignorée en raison d'une fausse condition ; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'!='true') a été évaluée comme ('Application'=='Application' and 'false'=='true' and 'false'!='true').
                    Tâche "Exec" ignorée en raison d'une fausse condition ; ('$(ConfigurationType)'=='Application' and '%(Link.RegisterOutput)'=='true' and '%(Link.PerUserRedirection)'=='true') a été évaluée comme ('Application'=='Application' and 'false'=='true' and 'false'=='true').
                    Tâche "VCMessage" ignorée en raison d'une fausse condition ; ('$(_RegisterOutputExitCode)' != '' and '$(_RegisterOutputExitCode)' != '0') a été évaluée comme ('' != '' and '' != '0').
-10:20:07.432     1>Génération de la cible "RegisterOutput" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:89)
+10:21:14.935     1>Génération de la cible "RegisterOutput" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:89)
                    Cible "PrepareForBuild" ignorée. Elle a été générée.
                    Cible "ResolveReferences" ignorée. Elle a été générée.
-10:20:07.432     1>Cible "ResolvedXDCMake : (IdCible:90)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_XdcMake" en dépend) :
+10:21:14.935     1>Cible "ResolvedXDCMake : (IdCible:90)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_XdcMake" en dépend) :
                    Tâche "MSBuild" ignorée en raison d'une fausse condition ; ('%(_MSBuildProjectReferenceExistent.Extension)' == '.vcxproj' and '@(ProjectReferenceWithConfiguration)' != '' and '@(_MSBuildProjectReferenceExistent)' != '' and '$(_ClCompileGenerateXMLDocumentationFiles)' == 'true') a été évaluée comme ('' == '.vcxproj' and '' != '' and '' != '' and '' == 'true').
-10:20:07.432     1>Génération de la cible "ResolvedXDCMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:90)
-10:20:07.432     1>Cible "ComputeCLCompileGeneratedXDCFiles : (IdCible:91)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_XdcMake" en dépend) :
+10:21:14.935     1>Génération de la cible "ResolvedXDCMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:90)
+10:21:14.935     1>Cible "ComputeCLCompileGeneratedXDCFiles : (IdCible:91)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_XdcMake" en dépend) :
                    Élément(s) ajouté(s) : 
                        XdcMake=
                            temp
@@ -2659,68 +2660,68 @@ windir = C:\WINDOWS
                                    OutputFile=E:\C++\voidProject\Debug\void-Projec.xml
                                    SuppressStartupBanner=true
                                    TrackerLogDirectory=void-Projec.dir\Debug\Projet_Moteur_V2.tlog\
-10:20:07.433     1>Génération de la cible "ComputeCLCompileGeneratedXDCFiles" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:91)
-10:20:07.433     1>Cible "MakeDirsForXdcMake : (IdCible:92)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_XdcMake" en dépend) :
+10:21:14.936     1>Génération de la cible "ComputeCLCompileGeneratedXDCFiles" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:91)
+10:21:14.936     1>Cible "MakeDirsForXdcMake : (IdCible:92)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_XdcMake" en dépend) :
                    Tâche "MakeDir" (IDTâche:32)
                    Exécution de la tâche "MakeDir" terminée. (IDTâche:32)
-10:20:07.433     1>Génération de la cible "MakeDirsForXdcMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:92)
+10:21:14.936     1>Génération de la cible "MakeDirsForXdcMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:92)
                    Cible "XdcMake" ignorée en raison d'une fausse condition ; ('@(XdcMake)' != '') a été évaluée comme ('' != '').
-10:20:07.433     1>Cible "_XdcMake : (IdCible:93)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
-10:20:07.433     1>Génération de la cible "_XdcMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:93)
-10:20:07.433     1>Cible "ComputeCLCompileGeneratedSbrFiles : (IdCible:94)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BscMake" en dépend) :
-10:20:07.433     1>Génération de la cible "ComputeCLCompileGeneratedSbrFiles" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:94)
-10:20:07.433     1>Cible "MakeDirsForBscMake : (IdCible:95)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BscMake" en dépend) :
+10:21:14.936     1>Cible "_XdcMake : (IdCible:93)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.936     1>Génération de la cible "_XdcMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:93)
+10:21:14.936     1>Cible "ComputeCLCompileGeneratedSbrFiles : (IdCible:94)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BscMake" en dépend) :
+10:21:14.936     1>Génération de la cible "ComputeCLCompileGeneratedSbrFiles" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:94)
+10:21:14.936     1>Cible "MakeDirsForBscMake : (IdCible:95)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BscMake" en dépend) :
                    Tâche "MakeDir" (IDTâche:33)
                    Exécution de la tâche "MakeDir" terminée. (IDTâche:33)
-10:20:07.433     1>Génération de la cible "MakeDirsForBscMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:95)
+10:21:14.936     1>Génération de la cible "MakeDirsForBscMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:95)
                    Cible "BscMake" ignorée en raison d'une fausse condition ; ('@(BscMake)' != '') a été évaluée comme ('' != '').
                    Cible "CustomBuildStep" ignorée en raison d'une fausse condition ; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') a été évaluée comme ('' != '' and ''=='').
-10:20:07.433     1>Cible "_BscMake : (IdCible:96)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
-10:20:07.433     1>Génération de la cible "_BscMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:96)
+10:21:14.936     1>Cible "_BscMake : (IdCible:96)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.936     1>Génération de la cible "_BscMake" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:96)
                    Cible "RunMergeNativeCodeAnalysis" ignorée en raison d'une fausse condition ; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') a été évaluée comme ('C++'=='C++' and ''=='true').
                    Cible "RunNativeCodeAnalysis" ignorée en raison d'une fausse condition ; ('$(Language)'=='C++' and '$(RunCodeAnalysisOnThisProject)'=='true') a été évaluée comme ('C++'=='C++' and ''=='true').
-10:20:07.433     1>Cible "_GenerateSatelliteAssemblyInputs : (IdCible:97)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "CreateSatelliteAssemblies" en dépend) :
+10:21:14.936     1>Cible "_GenerateSatelliteAssemblyInputs : (IdCible:97)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "CreateSatelliteAssemblies" en dépend) :
                    Tâche "Warning" ignorée en raison d'une fausse condition ; ('@(ManifestResourceWithCulture)'!='' and '%(ManifestResourceWithCulture.EmittedForCompatibilityOnly)'=='') a été évaluée comme (''!='' and ''=='').
                    Tâche "Warning" ignorée en raison d'une fausse condition ; ('@(ManifestNonResxWithCultureOnDisk)'!='' and '%(ManifestNonResxWithCultureOnDisk.EmittedForCompatibilityOnly)'=='') a été évaluée comme (''!='' and ''=='').
-10:20:07.433     1>Génération de la cible "_GenerateSatelliteAssemblyInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:97)
+10:21:14.936     1>Génération de la cible "_GenerateSatelliteAssemblyInputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:97)
                    Cible "ComputeIntermediateSatelliteAssemblies" ignorée en raison d'une fausse condition ; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') a été évaluée comme ( != '').
                    Cible "GenerateSatelliteAssemblies" ignorée en raison d'une fausse condition ; ('@(_SatelliteAssemblyResourceInputs)' != '') a été évaluée comme ('' != '').
-10:20:07.433     1>Cible "CreateSatelliteAssemblies : (IdCible:98)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
-10:20:07.433     1>Génération de la cible "CreateSatelliteAssemblies" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:98)
-10:20:07.433     1>Cible "_Appverifier : (IdCible:99)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
-10:20:07.433     1>Génération de la cible "_Appverifier" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:99)
-10:20:07.433     1>Cible "_Deploy : (IdCible:100)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
-10:20:07.433     1>Génération de la cible "_Deploy" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:100)
+10:21:14.936     1>Cible "CreateSatelliteAssemblies : (IdCible:98)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.936     1>Génération de la cible "CreateSatelliteAssemblies" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:98)
+10:21:14.936     1>Cible "_Appverifier : (IdCible:99)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.936     1>Génération de la cible "_Appverifier" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:99)
+10:21:14.936     1>Cible "_Deploy : (IdCible:100)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.936     1>Génération de la cible "_Deploy" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:100)
                    Cible "ComputeIntermediateSatelliteAssemblies" ignorée en raison d'une fausse condition ; (@(ReferenceSatellitePaths->'%(DestinationSubDirectory)') != '') a été évaluée comme ( != '').
                    Cible "_CopyFilesMarkedCopyLocal" ignorée en raison d'une fausse condition ; ('@(ReferenceCopyLocalPaths)' != '') a été évaluée comme ('' != '').
                    Cible "AssignTargetPaths" ignorée. Elle a été générée.
                    Cible "_SplitProjectReferencesByFileExistence" ignorée. Elle a été générée.
                    Cible "_GetProjectReferenceTargetFrameworkProperties" ignorée. Elle a été générée.
-10:20:07.433     1>Cible "GetCopyToOutputDirectoryXamlAppDefs : (IdCible:101)" dans le fichier "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "GetCopyToOutputDirectoryItems" en dépend) :
+10:21:14.936     1>Cible "GetCopyToOutputDirectoryXamlAppDefs : (IdCible:101)" dans le fichier "C:\WINDOWS\Microsoft.NET\Framework\v4.0.30319\Microsoft.Xaml.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "GetCopyToOutputDirectoryItems" en dépend) :
                    Tâche "AssignTargetPath" (IDTâche:34)
                      Paramètre de tâche :RootFolder=E:\C++\Projet_Moteur_V2\Projet_Moteur_V2 (IDTâche:34)
                    Exécution de la tâche "AssignTargetPath" terminée. (IDTâche:34)
-10:20:07.433     1>Génération de la cible "GetCopyToOutputDirectoryXamlAppDefs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:101)
-10:20:07.433     1>Cible "GetCopyToOutputDirectoryItems : (IdCible:102)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_CopySourceItemsToOutputDirectory" en dépend) :
+10:21:14.936     1>Génération de la cible "GetCopyToOutputDirectoryXamlAppDefs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:101)
+10:21:14.936     1>Cible "GetCopyToOutputDirectoryItems : (IdCible:102)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_CopySourceItemsToOutputDirectory" en dépend) :
                    Propriété définie : _GCTODIKeepDuplicates=false
                    Propriété définie : _GCTODIKeepMetadata=CopyToOutputDirectory;TargetPath
                    Tâche "MSBuild" ignorée en raison d'une fausse condition ; ('@(_MSBuildProjectReferenceExistent)' != '' and '$(_GetChildProjectCopyToOutputDirectoryItems)' == 'true' and '%(_MSBuildProjectReferenceExistent.Private)' != 'false' and '$(UseCommonOutputDirectory)' != 'true') a été évaluée comme ('' != '' and 'true' == 'true' and '' != 'false' and 'false' != 'true').
                    Tâche "AssignTargetPath" (IDTâche:35)
                      Paramètre de tâche :RootFolder=E:\C++\Projet_Moteur_V2\Projet_Moteur_V2 (IDTâche:35)
                    Exécution de la tâche "AssignTargetPath" terminée. (IDTâche:35)
-10:20:07.434     1>Génération de la cible "GetCopyToOutputDirectoryItems" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:102)
+10:21:14.937     1>Génération de la cible "GetCopyToOutputDirectoryItems" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:102)
                    Cible "_CopyOutOfDateSourceItemsToOutputDirectory" ignorée en raison d'une fausse condition ; ( '@(_SourceItemsToCopyToOutputDirectory)' != '' ) a été évaluée comme ( '' != '' ).
                    Cible "_CopyOutOfDateSourceItemsToOutputDirectoryAlways" ignorée en raison d'une fausse condition ; ( '@(_SourceItemsToCopyToOutputDirectoryAlways)' != '' ) a été évaluée comme ( '' != '' ).
-10:20:07.434     1>Cible "_CopySourceItemsToOutputDirectory : (IdCible:103)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "CopyFilesToOutputDirectory" en dépend) :
-10:20:07.434     1>Génération de la cible "_CopySourceItemsToOutputDirectory" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:103)
+10:21:14.937     1>Cible "_CopySourceItemsToOutputDirectory : (IdCible:103)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "CopyFilesToOutputDirectory" en dépend) :
+10:21:14.937     1>Génération de la cible "_CopySourceItemsToOutputDirectory" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:103)
                    Cible "_CopyAppConfigFile" ignorée en raison d'une fausse condition ; ( '@(AppConfigWithTargetPath)' != '' ) a été évaluée comme ( '' != '' ).
                    Cible "_CopyManifestFiles" ignorée en raison d'une fausse condition ; ( '$(_DeploymentCopyApplicationManifest)'=='true' or '$(GenerateClickOnceManifests)'=='true' ) a été évaluée comme ( ''=='true' or ''=='true' ).
-10:20:07.434     1>Cible "_CheckForCompileOutputs : (IdCible:104)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "CopyFilesToOutputDirectory" en dépend) :
+10:21:14.937     1>Cible "_CheckForCompileOutputs : (IdCible:104)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "CopyFilesToOutputDirectory" en dépend) :
                    Propriété définie : _DocumentationFileProduced=false
                    Propriété définie : _DebugSymbolsProduced=false
-10:20:07.434     1>Génération de la cible "_CheckForCompileOutputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:104)
+10:21:14.937     1>Génération de la cible "_CheckForCompileOutputs" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:104)
                    Cible "_SGenCheckForOutputs" ignorée en raison d'une fausse condition ; ('$(_SGenGenerateSerializationAssembliesConfig)' == 'On' or ('@(WebReferenceUrl)'!='' and '$(_SGenGenerateSerializationAssembliesConfig)' == 'Auto')) a été évaluée comme ('Off' == 'On' or (''!='' and 'Off' == 'Auto')).
-10:20:07.434     1>Cible "CopyFilesToOutputDirectory : (IdCible:105)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForRun" en dépend) :
+10:21:14.937     1>Cible "CopyFilesToOutputDirectory : (IdCible:105)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "PrepareForRun" en dépend) :
                    Propriété définie : CreateHardLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Propriété définie : CreateSymbolicLinksForCopyFilesToOutputDirectoryIfPossible=false
                    Propriété définie : CopyBuildOutputToOutputDirectory=true
@@ -2735,11 +2736,11 @@ windir = C:\WINDOWS
                    Tâche "Copy" ignorée en raison d'une fausse condition ; ('@(ReferenceComWrappersToCopyLocal)' != '' or '@(ResolvedIsolatedComModules)' != '' or '@(_DeploymentLooseManifestFile)' != '' or '@(NativeReferenceFile)' != '' ) a été évaluée comme ('' != '' or '' != '' or '' != '' or '' != '' ).
                    Tâche "Copy" ignorée en raison d'une fausse condition ; ('$(SkipCopyWinMDArtifact)' != 'true' and '@(WinMDExpArtifacts)' != '') a été évaluée comme ('' != 'true' and '' != '').
                    Tâche "Message" ignorée en raison d'une fausse condition ; ('$(SkipCopyWinMDArtifact)' != 'true' and '$(_WindowsMetadataOutputPath)' != '') a été évaluée comme ('' != 'true' and '' != '').
-10:20:07.434     1>Génération de la cible "CopyFilesToOutputDirectory" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:105)
-10:20:07.434     1>Cible "PrepareForRun : (IdCible:106)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
-10:20:07.434     1>Génération de la cible "PrepareForRun" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:106)
+10:21:14.937     1>Génération de la cible "CopyFilesToOutputDirectory" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:105)
+10:21:14.937     1>Cible "PrepareForRun : (IdCible:106)" dans le fichier "E:\Programs\VS17\MSBuild\15.0\Bin\Microsoft.Common.CurrentVersion.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.937     1>Génération de la cible "PrepareForRun" terminée dans le projet "Projet_Moteur_V2.vcxproj". : (IdCible:106)
                    Cible "CustomBuildStep" ignorée en raison d'une fausse condition ; ('@(CustomBuildStep)' != '' and '$(SelectedFiles)'=='') a été évaluée comme ('' != '' and ''=='').
-10:20:07.434     1>Cible "PostBuildEvent : (IdCible:107)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
+10:21:14.937     1>Cible "PostBuildEvent : (IdCible:107)" dans le fichier "E:\Programs\VS17\Common7\IDE\VC\VCTargets\Microsoft.CppCommon.targets" du projet "E:\C++\Projet_Moteur_V2\Projet_Moteur_V2\Projet_Moteur_V2.vcxproj" (la cible "_BuildLinkAction" en dépend) :
                    Tâche "Message" ignorée en raison d'une fausse condition ; ('%(PostBuildEvent.Message)' != '' and '%(PostBuildEvent.Command)' != '') a été évaluée comme ('' != '' and 'E:\C++\Projet_Moteur_V2\sync.bat' != '').
                    Utilisation de la tâche "Exec" à partir de l'assembly "Microsoft.Build.Tasks.Core, Version=15.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a".
                    Tâche "Exec" (IDTâche:36)
