@@ -1,8 +1,9 @@
-#include <DXUT.h>
-#include <DXUTgui.h>
-#include <SDKmisc.h>
-#include <DXUTcamera.h>
-#include <DXUTsettingsdlg.h>
+#include "DXUT.h"
+#include "DXUTgui.h"
+#include "DXUTmisc.h"
+#include "DXUTcamera.h"
+#include "DXUTsettingsdlg.h"
+#include "SDKmisc.h"
 #include "../Projet_Moteur_V2/Projet_Moteur_V2/resource.h"
 
 #include <DirectXColors.h>
