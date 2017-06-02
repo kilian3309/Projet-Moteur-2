@@ -64,14 +64,14 @@ enum {
 const float CAMERA_SPACING = 50.f;
 
 //Variables globales
-CModelViewerCamera g_Camera; //La camera
-CDXUTDialogResourceManager g_DialogResourceManager;	//Manager pour les resources partargés des différents dialogs
-CDXUTDialog g_SampleUI;		//Dialogue pour les controles spécifiques (controles au sens par exemple des touches cheloux)
-CDXUTDialog g_HUD;	//Dialog pour les controles standards
-CD3DSettingsDlg g_SettingsDlg; //Parametre du device principale
-CDXUTTextHelper* g_pTxtHelper = nullptr;
+CModelViewerCamera			g_Camera;					//La camera
+CDXUTDialogResourceManager	g_DialogResourceManager;	//Manager pour les resources partargés des différents dialogs
+CDXUTDialog					g_SampleUI;					//Dialogue pour les controles spécifiques (controles au sens par exemple des touches cheloux)
+CDXUTDialog					g_HUD;						//Dialog pour les controles standards
+CD3DSettingsDlg				g_SettingsDlg;				//Parametre du device principale
+CDXUTTextHelper*			g_pTxtHelper = nullptr;		//Afficheur de text
 
-ID3D11InputLayout* g_pBatchInputLayout = nullptr;
+ID3D11InputLayout*			g_pBatchInputLayout = nullptr;
 
 std::unique_ptr<CommonStates>	g_States;
 std::unique_ptr<BasicEffect>	g_BatchEffect;
@@ -94,7 +94,7 @@ CollisionBox        g_SecondaryOrientedBoxes[GROUP_COUNT];
 CollisionAABox      g_SecondaryAABoxes[GROUP_COUNT];
 CollisionTriangle   g_SecondaryTriangles[GROUP_COUNT];
 
-//Contrôles cheloux (UI control)
+//Contrôles des bouttons à droite (UI control)
 #define IDC_STATIC				-1
 #define IDC_TOGGLEFULLSCREEN	1
 #define IDC_TOGGLEREF			2
@@ -162,8 +162,6 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 	DXUTSetCallbackFrameMove(OnFrameMove);
 	DXUTSetCallbackDeviceChanging(ModifyDeviceSettings);
 
-	
-
 	DXUTSetCallbackD3D11DeviceAcceptable(IsD3D11DeviceAcceptable);
 	DXUTSetCallbackD3D11DeviceCreated(OnD3D11CreateDevice);
 	DXUTSetCallbackD3D11SwapChainResized(OnD3D11ResizedSwapChain);
@@ -173,9 +171,11 @@ int WINAPI wWinMain(_In_ HINSTANCE hInstance, _In_opt_ HINSTANCE hPrevInstance, 
 
 	InitApp();
 	DXUTInit(true, true, nullptr); //Parse les parametres de la command line, affiche les msbox comme des erreurs, pas de paramètres en plus
-	DXUTSetCursorSettings(L"ISN Motor v2");
+	DXUTSetCursorSettings(true, true);
+	DXUTCreateWindow(L"ISN Motor v2");
 
 	DXUTCreateDevice(D3D_FEATURE_LEVEL_10_0, true, 800, 600);
+
 	DXUTMainLoop(); //DXUT loop de render
 
 	return DXUTGetExitCode();
